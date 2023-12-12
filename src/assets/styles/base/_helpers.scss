@@ -1,0 +1,354 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.visually-hidden {
+  block-size: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  inline-size: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+@media (max-width: 959px) {
+  .sm\:center {
+    text-align: center;
+  }
+}
+
+.color-filters {
+  block-size: 0;
+  inline-size: 0;
+  left: -9999em;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.linked-video,
+.card--video {
+  .play-button {
+    block-size: auto;
+    border-radius: 50%;
+    box-shadow: 0 1rem 0 0 var(--fl-fgColor, var(--color-red-65));
+    position: absolute;
+    z-index: 1;
+
+    .bg {
+      fill: var(--fl-bgColor, var(--color-white));
+    }
+
+    .fg {
+      fill: var(--fl-fgColor, var(--color-red-65));
+    }
+  }
+
+  &:hover {
+    .play-button {
+      box-shadow: 0 1rem 0 0 var(--fl-fgColor, var(--color-red-45));
+
+      .fg {
+        fill: var(--fl-fgColor, var(--color-red-45));
+      }
+    }
+  }
+
+  &:focus {
+    .play-button {
+      box-shadow: 0 1rem 0 0 var(--fl-fgColor, var(--color-red-45));
+
+      .fg {
+        fill: var(--fl-fgColor, var(--color-red-45));
+      }
+    }
+  }
+
+  &:active {
+    .play-button {
+      box-shadow: 0 12px 0 0 var(--fl-fgColor, var(--color-red-45));
+    }
+  }
+}
+
+.linked-video {
+  border-radius: var(--radius-xl);
+  display: block;
+  inline-size: auto;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 0 0 var(--space-xs) var(--fl-linkColor, var(--fl-fgColor, var(--color-red-45)));
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 var(--space-xs) var(--fl-linkColor, var(--fl-fgColor, var(--color-red-45)));
+    outline: none;
+  }
+
+  .resource & {
+    border-radius: var(--radius-md);
+    max-inline-size: calc(320 / 16 * 1rem);
+  }
+
+  .play-button {
+    inline-size: 132px;
+    left: calc(50% - 132px / 2);
+    top: calc(50% - 132px / 2);
+  }
+
+  &:active {
+    .play-button {
+      top: calc(50% - 62px);
+    }
+  }
+}
+
+.card--video {
+  .play-button {
+    box-shadow: 0 0.5rem 0 0 var(--fl-fgColor, var(--color-red-45));
+    inline-size: 64px;
+    left: calc(50% - 64px / 2);
+    top: calc(35% - 64px / 2);
+  }
+
+  &:hover,
+  &:focus {
+    .play-button {
+      box-shadow: 0 0.5rem 0 0 var(--fl-fgColor, var(--color-red-45));
+    }
+  }
+
+  &:active {
+    .play-button {
+      box-shadow: 0 6px 0 0 var(--fl-fgColor, var(--color-red-45));
+      top: calc(35% - 30px);
+    }
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.flow > * + * {
+  margin-block-start: 1em;
+}
+
+.flow-md > * + * {
+  margin-block-start: var(--space-md);
+}
+
+.flow-lg > * + * {
+  margin-block-start: var(--space-lg);
+}
+
+.flow-xl > * + * {
+  margin-block-start: var(--space-xl);
+}
+
+.flow-xxl > * + * {
+  margin-block-start: var(--space-xxl);
+}
+
+.switcher {
+  --threshold: 768px;
+  --space: var(--space-lg);
+
+  margin-block-start: var(--space-lg);
+}
+
+.switcher > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--space) / 2 * -1);
+}
+
+.switcher > * > * {
+  flex-basis: calc((var(--threshold) - (100% - var(--space))) * 999);
+  flex-grow: 1;
+  margin: calc(var(--space) / 2);
+}
+
+.switcher > * > :nth-last-child(n+4),
+.switcher > * > :nth-last-child(n+4) ~ * {
+  flex-basis: 100%;
+}
+
+.grid {
+  --gap: var(--space-lg);
+
+  display: grid;
+  grid-gap: var(--gap);
+}
+
+.grid--2 {
+  --columns: 2;
+}
+
+.grid--3 {
+  --columns: 3;
+}
+
+.grid--4 {
+  --columns: 4;
+}
+
+.two\:three,
+.three\:two {
+  --space: var(--space-lg);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.two\:three > * + *,
+.three\:two > * + * {
+  margin-block-start: var(--space);
+}
+
+.three\:two__three,
+.two\:three__three {
+  > picture,
+  > img {
+    margin-inline: auto;
+    max-inline-size: calc(640 / 16 * 1rem);
+  }
+}
+
+.bg {
+  position: relative;
+}
+
+.bg--yellow-85 {
+  --cta-accent: var(--color-yellow-75);
+  --cta-interactive: var(--color-yellow-55);
+
+  background-color: var(--color-yellow-85);
+}
+
+.bg--red-75 {
+  --cta-accent: var(--color-red-65);
+  --cta-interactive: var(--color-red-45);
+
+  background-color: var(--color-red-75);
+}
+
+.bg--orange-75 {
+  --cta-accent: var(--color-orange-65);
+  --cta-interactive: var(--color-orange-55);
+
+  background-color: var(--color-orange-75);
+}
+
+.bg--green-65 {
+  background-color: var(--color-green-65);
+}
+
+.bg--green-85 {
+  --cta-accent: var(--color-green-75);
+  --cta-interactive: var(--color-green-55);
+
+  background-color: var(--color-green-85);
+}
+
+.bg--cream-95 {
+  --cta-accent: var(--color-cream-85);
+  --cta-interactive: var(--color-cream-65);
+
+  background-color: var(--color-cream-95);
+}
+
+.bg--purple-75 {
+  background-color: var(--color-purple-75);
+}
+
+.bg--teal-75 {
+  background-color: var(--color-teal-75);
+}
+
+.bg--blue-65 {
+  background-color: var(--color-blue-65);
+}
+
+.bg--blue-35 {
+  background-color: var(--color-blue-35);
+}
+
+.bg--yellow-75 {
+  background-color: var(--color-yellow-75);
+}
+
+.bg--purple-35 {
+  --cta-accent: var(--color-purple-25);
+  --cta-interactive: var(--color-purple-05);
+
+  background-color: var(--color-purple-35);
+  color: var(--color-white);
+}
+
+.text--white {
+  color: var(--color-white);
+}
+
+.wave {
+  block-size: auto;
+  max-inline-size: 100%;
+}
+
+.wave--bottom {
+  margin-block-end: -8px;
+}
+
+@media (min-width: 960px) {
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:flow-lg > * + * {
+    margin-block-start: var(--space-lg);
+  }
+
+  .md\:flow-xl > * + * {
+    margin-block-start: var(--space-xl);
+  }
+
+  .grid {
+    grid-template-columns: repeat(var(--columns, 2), 1fr);
+  }
+
+  .two\:three,
+  .three\:two {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .two\:three > * + *,
+  .three\:two > * + * {
+    margin-block-start: 0;
+  }
+
+  .two\:three__two,
+  .three\:two__two {
+    inline-size: calc((2 / 5 * 100%) - var(--space) / 2);
+  }
+
+  .two\:three__three,
+  .three\:two__three {
+    display: block;
+    inline-size: calc((3 / 5 * 100%) - var(--space) / 2);
+
+    > img,
+    > picture {
+      max-inline-size: 100%;
+    }
+  }
+}

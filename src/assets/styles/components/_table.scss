@@ -1,0 +1,27 @@
+table {
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0.25rem;
+  inline-size: 100%;
+
+  thead,
+  tbody,
+  tfoot {
+    border: 0;
+  }
+
+  thead th {
+    border: solid var(--color-black-05) var(--border-thin);
+  }
+
+  th {
+    border: 0;
+    padding: var(--step--2);
+  }
+
+  td {
+    border: 0;
+    padding: var(--step--2);
+    text-align: start;
+  }
+}

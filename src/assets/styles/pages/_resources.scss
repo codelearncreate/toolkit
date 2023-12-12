@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the resources page.
+// -----------------------------------------------------------------------------
+
+.no-js .resources #resources {
+  display: none;
+}
+
+.resources .resource picture img {
+  border-inline-start: var(--space-lg) solid var(--color-orange-75);
+}
+
+.resources .resource:not([class*="--hide"]) ~ .resource {
+  border-block-start: var(--border-hairline) solid var(--color-black-05);
+  margin-block-start: var(--space-lg);
+  padding-block-start: var(--space-lg);
+}
+
+.supportive-materials a {
+  svg {
+    margin-block-end: calc(-1 * var(--space-xs));
+    margin-inline-start: var(--space-sm);
+  }
+}
+
+.supportive-materials p + p {
+  border-block-start: var(--border-hairline) solid var(--color-black-05);
+  margin-block-start: var(--space-md);
+  padding-block-start: var(--space-md);
+}

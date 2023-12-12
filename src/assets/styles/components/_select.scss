@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the select component.
+// -----------------------------------------------------------------------------
+
+.select {
+  appearance: none;
+  background-color: white;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 11 8" width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.074 1.55A1 1 0 011.91 0H9.3a1 1 0 01.836 1.55L6.44 7.167a1 1 0 01-1.67 0L1.074 1.55z" fill="black"/></svg>');
+  background-position: right var(--space-sm) center;
+  background-repeat: no-repeat;
+  block-size: var(--space-lg);
+  border: var(--border-hairline) solid black;
+  border-radius: var(--radius-xs);
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  padding-block: var(--space-xxs);
+  padding-inline: var(--space-sm) var(--space-lg);
+}
+
+.select:focus {
+  border-color: var(--color-red-45);
+  box-shadow: 0 0 0 var(--space-xxs) var(--fl-fgColor, var(--color-red-45));
+  outline: none;
+}
+
+.label .select {
+  margin-inline-start: calc(var(--space-xs) * 2);
+}
+
+.fl-theme-gd {
+  select {
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 11 8" width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.074 1.55A1 1 0 011.91 0H9.3a1 1 0 01.836 1.55L6.44 7.167a1 1 0 01-1.67 0L1.074 1.55z" fill="silver"/></svg>');
+  }
+}

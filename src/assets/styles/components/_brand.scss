@@ -1,0 +1,37 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.brand a {
+  border-radius: var(--radius-xxs);
+  display: block;
+  font-size: var(--step-3);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+
+  &:focus {
+    box-shadow: 0 0 0 var(--border-thin) var(--fl-linkColor, var(--color-green-35));
+    outline: none;
+  }
+}
+
+.brand .logo {
+  display: block;
+  inline-size: var(--space-xxl);
+
+  .cls-1 {
+    fill: var(--fl-linkColor, #30454f);
+  }
+
+  .cls-2 {
+    fill: var(--fl-bgColor, #cce5e2);
+  }
+
+  .cls-3 {
+    fill: var(--fl-bgColor, #fff);
+  }
+
+  &.mono {
+    display: none;
+  }
+}

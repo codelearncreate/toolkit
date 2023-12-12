@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+@media (min-width: 960px) {
+  .home .header {
+    background-image: url("/assets/media/home.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    block-size: min(100vh, 1100px);
+  }
+}

@@ -1,0 +1,52 @@
+.grid-image {
+  text-align: center;
+}
+
+.grid-image [role="image"] {
+  aspect-ratio: 320 / 310;
+  background-color: var(--color-cream-75);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: var(--radius-md);
+  display: block;
+  margin-inline: auto;
+  max-inline-size: calc(320 / 16 * 1rem);
+  overflow: hidden;
+}
+
+.grid-image a {
+  border-radius: var(--radius-md);
+  display: block;
+
+  &:hover {
+    box-shadow: 0 0 0 var(--space-xs) var(--fl-linkColor, var(--fl-fgColor, var(--color-red-45)));
+
+    .play-button {
+      box-shadow: 0 1rem 0 0 var(--fl-fgColor, var(--color-red-45));
+
+      .fg {
+        fill: var(--fl-fgColor, var(--color-red-45));
+      }
+    }
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 var(--space-xs) var(--fl-linkColor, var(--fl-fgColor, var(--color-red-45)));
+    outline: none;
+
+    .play-button {
+      box-shadow: 0 1rem 0 0 var(--fl-fgColor, var(--color-red-45));
+
+      .fg {
+        fill: var(--fl-fgColor, var(--color-red-45));
+      }
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .grid-image {
+    text-align: start;
+  }
+}

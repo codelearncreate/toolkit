@@ -1,0 +1,56 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/**
+ * Basic styles for links
+ */
+a:not([class]) {
+  border-radius: var(--radius-xs);
+  color: currentcolor;
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--color-teal-35);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 var(--space-xxs) var(--color-teal-35);
+    outline: none;
+  }
+
+  &:active {
+    background-color: var(--color-teal-35);
+    color: var(--color-white);
+  }
+
+  &:visited {
+    color: currentcolor;
+
+    &:active {
+      color: var(--color-white);
+    }
+  }
+}
+
+.bg--red-75 a:not([class]) {
+  &:hover {
+    color: var(--color-black-25);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 var(--space-xxs) var(--color-red-35);
+  }
+
+  &:active,
+  &:hover:active {
+    background-color: var(--color-red-35);
+    color: var(--color-white);
+  }
+}

@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+[role="banner"] {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  margin-block-start: var(--space-lg);
+  z-index: 1;
+}
+
+[role="banner"] .wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  max-inline-size: var(--max-content-width);
+  padding-block: var(--space-md);
+  padding-inline: var(--space-md);
+}
+
+@media (min-width: 960px) {
+  [role="banner"] .wrapper {
+    align-items: center;
+    block-size: calc(106 / 16 * 1rem);
+    flex-direction: row;
+    justify-content: start;
+    padding-block: var(--space-md);
+    padding-inline: var(--space-lg);
+  }
+}

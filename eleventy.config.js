@@ -60,6 +60,12 @@ module.exports = function (eleventyConfig) {
     // Plugins
     eleventyConfig.addPlugin(fluidPlugin, {
         defaultLanguage: "en-CA",
+        css: {
+            enabled: false
+        },
+        sass: {
+            enabled: true
+        },
         i18n: false
     });
     eleventyConfig.addPlugin(navigationPlugin);

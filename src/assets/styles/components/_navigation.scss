@@ -1,0 +1,97 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the navigation component.
+// -----------------------------------------------------------------------------
+
+.nav {
+  margin-block-start: var(--space-lg);
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav li + li {
+  margin-block-start: var(--space-md);
+}
+
+.nav a {
+  block-size: calc(50 / 16 * 1rem);
+  border-radius: var(--radius-xxs);
+  font-family: var(--font-family-display);
+  font-size: calc(24 / 16 * 1rem);
+  font-weight: var(--font-weight-normal);
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-sm);
+  position: relative;
+  text-decoration: none;
+
+  &[aria-current="page"] {
+    @supports (mask-image: url("../images/wavy.svg")) {
+      &::after {
+        background-color: currentcolor;
+        block-size: rem(7);
+        content: "";
+        display: block;
+        inline-size: calc(100% - (2 * var(--space-sm)));
+        inset-block-end: calc(-1 * var(--space-sm));
+        inset-inline-start: var(--space-sm);
+        mask-image: url("../images/wavy.svg");
+        mask-position: left -5px top 50%;
+        mask-repeat: repeat-x;
+        mask-size: rem(294) rem(7);
+        position: absolute;
+      }
+    }
+
+    @supports (not (mask-image: url("../images/wavy.svg"))) {
+      text-decoration-line: underline;
+      text-decoration-style: wavy;
+      text-underline-offset: var(--space-sm);
+    }
+
+    font-weight: var(--font-weight-black);
+  }
+
+  &:hover {
+    color: var(--fl-linkColor, var(--color-green-45));
+
+    @supports (mask-image: url("../images/wavy.svg")) {
+      &::after {
+        background-color: var(--fl-linkColor, var(--color-green-45));
+      }
+    }
+
+    @supports (not (mask-image: url("../images/wavy.svg"))) {
+      text-decoration-color: var(--color-green-45);
+    }
+  }
+
+  &:focus {
+    background-color: white;
+    box-shadow: 0 0 0 var(--border-thin) currentcolor;
+    outline: none;
+  }
+
+  &:active {
+    background-color: var(--color-green-45);
+    box-shadow: 0 0 0 var(--border-thin) var(--fl-linkColor, var(--color-green-45));
+    color: var(--color-white);
+  }
+}
+
+@media (min-width: 960px) {
+  .nav {
+    margin-block-start: 0;
+    margin-inline-start: auto;
+  }
+
+  .nav ul {
+    flex-direction: row;
+  }
+
+  .nav li + li {
+    margin-block-start: 0;
+    margin-inline-start: var(--space-md);
+  }
+}

@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the projects page.
+// -----------------------------------------------------------------------------
+
+.no-js .projects #projects {
+  display: none;
+}
+
+.projects .project picture img {
+  border-inline-start: var(--space-lg) solid var(--color-purple-75);
+}
+
+.projects .project + .project {
+  border-block-start: var(--border-hairline) solid var(--color-black-05);
+  margin-block-start: var(--space-lg);
+  padding-block-start: var(--space-lg);
+}

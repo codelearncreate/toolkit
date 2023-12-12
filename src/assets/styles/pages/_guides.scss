@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the manufacturers' guide page.
+// -----------------------------------------------------------------------------
+.guide {
+  @media (min-width: 960px) {
+    .header {
+      background-color: var(--color-white);
+
+      figure {
+        inline-size: 100%;
+        margin-inline: auto;
+        max-inline-size: calc(540 / 16 * 1rem);
+      }
+
+      .wrapper {
+        background-color: var(--color-green-85);
+        border-start-end-radius: var(--radius-md);
+        border-start-start-radius: var(--radius-md);
+        margin-block: var(--space-xl) 0;
+        margin-inline: auto;
+      }
+    }
+
+    .content {
+      .wrapper {
+        background-color: var(--color-green-85);
+        border-end-end-radius: var(--radius-md);
+        border-end-start-radius: var(--radius-md);
+        margin-block-end: var(--space-xl);
+        padding-block-start: 0;
+      }
+
+      .inner {
+        background-color: var(--color-white);
+        border-radius: var(--radius-md);
+        box-shadow: inset 0 rem(4) rem(4) rgb(0 0 0 / 25%);
+        max-inline-size: 100%;
+        padding: var(--space-lg);
+
+        .learning-resource {
+          display: flex;
+          justify-content: space-between;
+
+          + .learning-resource {
+            border-block-start: var(--border-hairline) solid var(--color-black-05);
+            padding-block-start: var(--space-md);
+          }
+        }
+      }
+    }
+  }
+}
