@@ -1,5 +1,5 @@
 {
-    "name": "weavly-toolkit",
+    "name": "@weavly/co-design",
     "version": "0.0.1",
     "description": "TODO",
     "scripts": {
@@ -20,14 +20,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/codelearncreate/toolkit.git"
+        "url": "git+https://github.com/codelearncreate/co-design.git"
     },
     "author": "OCAD University",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/codelearncreate/toolkit/issues"
+        "url": "https://github.com/codelearncreate/co-design/issues"
     },
-    "homepage": "https://github.com/codelearncreate/toolkit#readme",
+    "homepage": "https://github.com/codelearncreate/co-design#readme",
     "dependencies": {
         "@11ty/eleventy": "2.0.1",
         "@11ty/eleventy-navigation": "0.3.5",

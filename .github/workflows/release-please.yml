@@ -13,5 +13,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: weavly-toolkit
-          pull-request-title-pattern: "chore(release): release${component} ${version}"
