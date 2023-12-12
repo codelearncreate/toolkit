@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the callout component.
+// -----------------------------------------------------------------------------
+
+.callout {
+  padding-block: var(--space-xl);
+  padding-inline: var(--space-md);
+}
+
+.callout + .callout {
+  border-block-start: var(--border-thin) solid var(--color-white);
+}
+
+@media (min-width: 960px) {
+  .callout {
+    padding-inline: var(--space-xl);
+  }
+}

@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the article layout.
+// -----------------------------------------------------------------------------
+
+article .header,
+article .content {
+  inline-size: 100%;
+}
+
+article .wrapper {
+  margin-inline: auto;
+  max-inline-size: var(--max-content-width);
+  padding-block: var(--space-lg);
+  padding-inline: var(--space-md);
+}
+
+article .flc-toc-tocContainer:empty {
+  padding: 0;
+}
+
+article .content .prose {
+  margin-inline: auto;
+}
+
+article .prose p > img {
+  border-radius: var(--radius-md);
+  margin-block-end: var(--space-lg);
+}
+
+@media (min-width: 960px) {
+  article .wrapper {
+    padding-block: var(--space-xl);
+    padding-inline: var(--space-lg);
+  }
+
+  article .prose p > img {
+    inline-size: calc(100% + var(--space-xl));
+    margin-inline-start: calc(-1 * var(--space-xl) / 2);
+    max-inline-size: calc(100% + var(--space-xl));
+  }
+}

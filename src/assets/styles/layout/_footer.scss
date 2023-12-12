@@ -1,0 +1,77 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+[role="contentinfo"] {
+  background-color: var(--color-black-25);
+  color: var(--color-white);
+  font-size: var(--step--1);
+  margin-block-start: auto;
+}
+
+[role="contentinfo"] .wrapper {
+  margin-inline: auto;
+  max-inline-size: var(--max-content-width);
+  padding-block: var(--space-lg);
+  padding-inline: var(--space-md);
+}
+
+[role="contentinfo"] h3 {
+  border-block-start: 3px solid currentcolor;
+  padding-block-start: var(--space-md);
+}
+
+[role="contentinfo"] a {
+  &:hover {
+    color: var(--color-teal-75);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 var(--space-xxs) var(--color-teal-75);
+    outline: none;
+  }
+
+  &:active {
+    background-color: var(--color-teal-75);
+    color: var(--color-black-25);
+  }
+}
+
+[role="contentinfo"] .contact {
+  margin-block-start: var(--space-lg);
+}
+
+[role="contentinfo"] .credits {
+  font-size: var(--step--2);
+  margin-block-start: var(--space-lg);
+}
+
+@media (min-width: 960px) {
+  [role="contentinfo"] .wrapper {
+    display: grid;
+    gap: var(--space-lg) var(--space-md);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    padding-block: var(--space-xl);
+    padding-inline: var(--space-lg);
+  }
+
+  [role="contentinfo"] .contact {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2 / 4;
+    margin-block-start: 0;
+
+    .h3 {
+      inline-size: 100%;
+    }
+
+    div {
+      inline-size: calc(50% - var(--space-md) / 2);
+    }
+  }
+
+  [role="contentinfo"] .credits {
+    grid-column: 1 / 4;
+    margin-block-start: 0;
+  }
+}

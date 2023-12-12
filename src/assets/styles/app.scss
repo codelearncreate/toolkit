@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  "abstracts/functions",
+  "abstracts/variables",
+  "abstracts/mixins";
+
+// 2. Vendors
+@import
+  "vendors/modern-css-reset";
+
+// 3. Base stuff
+@import
+  "base/base",
+  "base/fonts",
+  "base/typography",
+  "base/helpers";
+
+// 4. Layout-related sections
+@import
+  "layout/header",
+  "layout/article",
+  "layout/sidebar",
+  "layout/footer",
+  "layout/form";
+
+// 5. Components
+@import
+  "components/alert",
+  "components/brand",
+  "components/button",
+  "components/call-to-action",
+  "components/callout",
+  "components/card",
+  "components/filters",
+  "components/grid-image",
+  "components/grid-video",
+  "components/input",
+  "components/label",
+  "components/overlay",
+  "components/navigation",
+  "components/pagination",
+  "components/picture",
+  "components/placeholder",
+  "components/radio-group",
+  "components/select",
+  "components/table";
+
+// 6. Page-specific styles
+@import
+  "pages/home",
+  "pages/activities",
+  "pages/guides",
+  "pages/projects",
+  "pages/resources",
+  "pages/share";
+
+// 7. Themes
+@import
+  "themes/uio";

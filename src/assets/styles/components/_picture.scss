@@ -1,0 +1,23 @@
+img {
+  block-size: auto;
+  inline-size: 100%;
+  margin: 0;
+}
+
+picture {
+  position: relative;
+
+  img {
+    border-radius: var(--radius-xl);
+  }
+
+  &::after {
+    block-size: 100%;
+    border-radius: var(--radius-xl);
+    box-shadow: inset 0 rem(4) rem(4) rgb(0 0 0 / 25%);
+    content: "";
+    inline-size: 100%;
+    inset: 0;
+    position: absolute;
+  }
+}

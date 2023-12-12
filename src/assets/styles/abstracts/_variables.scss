@@ -1,0 +1,134 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+@use "sass:map";
+
+$colors: (
+  "white": white,
+  grey-95: #f1f2f4,
+  grey-85: #d5d8dd,
+  grey-75: #b9bec6,
+  black-35: #505862,
+  black-25: #3a3f46,
+  black-15: #22262a,
+  black-05: #1e1e1e,
+  blue-95: #eef2f6,
+  blue-85: #cdd7e4,
+  blue-75: #acbcd2,
+  blue-65: #8ba2c0,
+  blue-55: #6a87ae,
+  blue-45: #516d95,
+  blue-35: #3f5574,
+  blue-25: #2d3d53,
+  blue-15: #1b2432,
+  cream-95: #f9f2ec,
+  cream-85: #ecd8c7,
+  cream-75: #dfbda0,
+  cream-65: #d2a27a,
+  red-85: hsl(7deg 82% 85%),
+  red-75: hsl(8deg 81% 75%),
+  red-65: hsl(8deg 76% 65%),
+  red-55: hsl(7deg 82% 55%),
+  red-45: hsl(8deg 68% 45%),
+  red-35: hsl(8deg 68% 30%),
+  green-95: #ebfaf8,
+  green-85: #cce6e2,
+  green-75: #aad5cf,
+  green-65: #8bc3ab,
+  green-55: #66b2a9,
+  green-45: #4c9990,
+  green-35: hsl(173deg 34% 35%),
+  green-25: #30444e,
+  green-15: #22343c,
+  green-05: #18252c,
+  orange-95: #feece6,
+  orange-85: #fcc6b5,
+  orange-75: #fa9f84,
+  orange-65: #f97953,
+  orange-55: #f75322,
+  teal-85: #d3e7ec,
+  teal-75: #a4d0da,
+  teal-65: #80becc,
+  teal-55: #5babbd,
+  teal-45: #4292a4,
+  teal-35: #33717f,
+  yellow-85: #f9dcb9,
+  yellow-75: #f5c58a,
+  yellow-65: #f1ae5b,
+  yellow-55: #ed972c,
+  yellow-45: #d37d12,
+  purple-75: #d0afc8,
+  purple-65: #bd8fb2,
+  purple-55: #aa6f9c,
+  purple-45: #905582,
+  purple-35: #704265
+);
+$spaces: (
+  xxs: 2px,
+  xs: 4px,
+  sm: 12px,
+  md: 20px,
+  lg: 48px,
+  xl: 96px,
+  xxl: 192px
+);
+$borders: (
+  hairline: 1px,
+  thin: 2px,
+  medium: 3px,
+  thick: 4px
+);
+$radii: (
+  xxs: 3px,
+  xs: 4px,
+  sm: 10px,
+  md: 20px,
+  lg: 40px,
+  xl: 50px
+);
+
+:root {
+  // Font Families
+  --font-family-base: "Work Sans", sans-serif;
+  --font-family-display: "Libre Franklin", sans-serif;
+
+  // Font Weights
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  // Font Sizes
+  --step--2: calc(14 / 16 * 1rem);
+  --step--1: calc(16 / 16 * 1rem);
+  --step-0: calc(18 / 16 * 1rem);
+  --step-1: calc(28 / 16 * 1rem);
+  --step-2: calc(40 / 16 * 1rem);
+  --step-3: calc(44 / 16 * 1rem);
+
+  // Responsive Helpers
+  --max-content-width: #{rem(1320px)};
+
+  // Spacing
+  @each $name, $space in $spaces {
+    --space-#{$name}: #{rem($space)};
+  }
+
+  // Borders
+  @each $name, $border in $borders {
+    --border-#{$name}: #{rem($border)};
+  }
+
+  // Border Radii
+  @each $name, $radius in $radii {
+    --radius-#{$name}: #{rem($radius)};
+  }
+
+  // Colors
+  @each $name, $color in $colors {
+    --color-#{$name}: #{$color};
+  }
+
+  --fl-prefsEditorBgColor: var(--color-white);
+}
