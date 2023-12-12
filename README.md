@@ -1,29 +1,10 @@
-# Trivet Monolingual
+# Weavly Toolkit
 
-_A simple starter kit for Eleventy-based static sites for the Fluid Project._
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/48f5935e-d9ef-4c62-b85b-b59fa423d135/deploy-status)](https://app.netlify.com/sites/trivet-monolingual/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e252f16-15df-48b3-baeb-396b49c45b1c/deploy-status)](https://app.netlify.com/sites/weavly-toolkit/deploys)
 
 This repository contains the files needed to build [Eleventy](http://11ty.dev/)-based static sites for the [Fluid Project](https://fluidproject.org).
 It does not include support for internationalization; if your project requires internationalization, use [Trivet](https://github.com/fluid-project/trivet/)
 instead.
-
-## Installation
-
-You can use this repository as a template for a new site hosted on [Netlify](https://netlify.com) with [Decap CMS](https://decapcms.org)
-pre-configured:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fluid-project/trivet-monolingual&stack=cms)
-
-You can also use GitHub's template repository feature to create your own project based on Trivet Monolingual. From the
-[repository homepage](https://github.com/fluid-project/trivet-monolingual),
-click the "Use this template" button and then choose "Create a new repository".
-
-You can also set up a new project locally using [degit](https://www.npmjs.com/package/degit):
-
-```bash
-npx degit fluid-project/trivet-monolingual YOUR-PROJECT-NAME
-```
 
 ## Usage
 
@@ -40,8 +21,8 @@ You can build and serve the website from a [Docker](https://docs.docker.com/get-
 
 Once you have Docker installed, run the following commands to build a Docker image and start a container:
 
-* Build the image: `docker build -t trivet-monolingual .`
-* Run the container: `docker run --name trivet-monolingual -p 8000:80 trivet-monolingual`
+* Build the image: `docker build -t weavly-toolkit .`
+* Run the container: `docker run --name weavly-toolkit -p 8000:80 weavly-toolkit`
 
 The website will be available at [http://localhost:8000](http://localhost:8000)
 
@@ -76,15 +57,12 @@ For full documentation, see the [Decap CMS documentation](https://decapcms.org/d
 
 ## License
 
-Trivet Monolingual is available under the [New BSD License](https://raw.githubusercontent.com/fluid-project/trivet-monolingual/master/LICENSE.md).
+The Weavly Toolkit is available under the [New BSD License](https://raw.githubusercontent.com/codelearncreate/toolkit/master/LICENSE.md).
 
-## Third Party Software in Trivet Monolingual
+## Third Party Software in the Weavly Toolkit
 
-Trivet is based on other publicly available software, categorized by license:
+The Weavly Toolkit is based on other publicly available software, categorized by license:
 
-### MIT License
+### New BSD License
 
-* [Eleventastic](https://github.com/maxboeck/eleventastic)
-* [eleventy-webpack](https://github.com/clenemt/eleventy-webpack)
-* [Hylia](https://github.com/hankchizljaw/hylia)
-* [Supermaya](https://github.com/MadeByMike/supermaya)
+* [Trivet Monolingual](https://github.com/fluid-project/trivet-monolingual)
