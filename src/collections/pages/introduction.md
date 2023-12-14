@@ -1,6 +1,7 @@
 ---
 layout: layouts/home
-order: 0
+key: Introduction
+order: 1
 permalink: /
 title: Co-designing with kids with disabilities
 subtitle: This toolkit offers a set of strategies and guidelines to support
@@ -81,9 +82,6 @@ groundRulesSection:
 
 
     Each child is different, and there are no fixed solutions, tools, or techniques to help us co-design with them. This toolkit is a place to reflect on what we have experienced through years of collaboration with children with disabilities, not to try to prescribe specific approaches or solutions.
-eleventyNavigation:
-  key: Introduction
-  order: 0
 connectSection:
   title: Connect
   content: Please email us or join our discussion list if you’d like to be part of
