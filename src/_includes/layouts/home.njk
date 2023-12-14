@@ -1,0 +1,59 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "home" %}
+
+{% block pageHeader %}  
+  <div class="[ prose ]">
+    <h1>{{ title }}</h1>
+    <p class="[ subtitle ]">{{ subtitle | safe }}</p>
+  </div>
+{% endblock %}
+
+{% block content %}
+<div>
+  <div class="[ wrapper ]">
+    <div class="[ flow prose ]">
+      <h2>{{ introSection.title }}</h2>
+      {% renderString introSection.content, "md" %}
+    </div>
+  </div>
+</div>
+<div class="[ bg bg--cream-95 ]">
+  <div class="[ wrapper ]">
+    <div class="[ flow prose ]">
+        <h2>{{ groundRulesSection.title }}</h2>
+        {% renderString groundRulesSection.content, "md" %}
+    </div>
+  </div>
+</div>
+<div>
+  <div class="[ wrapper ]">
+    <div class="[ flow prose ]">
+        <h2>{{ howToSection.title }}</h2>
+        {% renderString howToSection.content, "md" %}
+    </div>
+  </div>
+</div>
+<div class="[ bg bg--green-85 ]">
+  <div class="[ wrapper ]">
+    <div class="[ flow center prose ]">
+        <h2>{{ contributorsSection.title }}</h2>
+        {% renderString contributorsSection.content, "md" %}
+    </div>
+  </div>
+</div>
+<div>
+  <div class="[ wrapper ]">
+    <div class="[ flow prose ]">
+    </div>
+  </div>
+</div>
+<div class="[ bg bg--orange-75 ]">
+  <div class="[ wrapper ]">
+    <div class="[ flow center prose ]">
+        <h2>{{ connectSection.title }}</h2>
+        {% renderString connectSection.content, "md" %}
+    </div>
+  </div>
+</div>
+{% endblock %}
