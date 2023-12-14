@@ -1,5 +1,6 @@
 ---
 layout: layouts/home
+order: 0
 permalink: /
 title: Co-designing with kids with disabilities
 subtitle: This toolkit offers a set of strategies and guidelines to support
