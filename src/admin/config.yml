@@ -4,37 +4,76 @@ backend:
 media_folder: src/assets/uploads
 public_folder: /assets/uploads
 
-# Run "npx netlify-cms-proxy-server" for local backend
+# Run "npx decap-server" for local backend
 local_backend: true
 editor:
   preview: false
 collections:
-  - label: Posts
-    label_singular: Post
-    name: post
-    folder: src/collections/posts/
-    extension: md
-    create: true
-    fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Excerpt, name: excerpt, widget: string, required: false}
-      - {label: Author, name: author, widget: string}
-      - {label: Publication Date, name: date, widget: datetime}
-      - {label: Body, name: body, widget: markdown}
-  - label: Pages
-    label_singular: Page
-    name: page
-    folder: src/collections/pages/
-    extension: md
-    create: true
-    filter: {field: layout, value: layouts/page}
-    fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Layout, name: layout, widget: hidden, default: layouts/page}
-      - {label: Navigation Order, name: order, widget: number, min: 0}
-      - {label: Navigation Label, name: key, widget: string, required: false}
-      - {label: Excerpt, name: excerpt, widget: string, required: false}
-      - {label: Body, name: body, widget: markdown}
+  - name: pages
+    label: Pages
+    files:
+      - label: Introduction
+        name: introduction
+        file: src/collections/pages/introduction.md
+        editor:
+          preview: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
+          - label: Intro
+            name: introSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+          - label: Ground Rules
+            name: groundRulesSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+          - label: How To
+            name: howToSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+          - label: Contributors
+            name: contributorsSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+          - label: Connect
+            name: connectSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+      - label: Planning
+        name: planning
+        file: src/collections/pages/planning.md
+        editor:
+          preview: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
+      - label: Doing
+        name: doing
+        file: src/collections/pages/doing.md
+        editor:
+          preview: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
+      - label: Reflecting
+        name: reflecting
+        file: src/collections/pages/reflecting.md
+        editor:
+          preview: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
   - label: Site Configuration
     name: config
     files:
@@ -51,7 +90,7 @@ collections:
         name: site
         file: src/_data/site.json
         fields:
-          - {label: Name, name: name, widget: string}
+          - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: text}
           - {label: Author Name, name: authorName, widget: string}
           - {label: Author Email, name: authorEmail, widget: string}

@@ -14,15 +14,12 @@ https://github.com/codelearncreate/co-design/raw/main/LICENSE.md.
 
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
-const rssPlugin = require("@11ty/eleventy-plugin-rss");
-const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
+const imageShortcode = require("./src/_shortcodes/image.js");
 
 // Import transforms
 const parseTransform = require("./src/_transforms/parse-transform.js");
 
 // Import data files
-const siteConfig = require("./src/_data/config.json");
-
 module.exports = function (eleventyConfig) {
     eleventyConfig.setUseGitIgnore(false);
 
@@ -34,27 +31,25 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"src/assets/icons": "/"});
     eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
     eleventyConfig.addPassthroughCopy({
-        "node_modules/netlify-cms/dist/netlify-cms.js": "lib/cms/netlify-cms.js",
+        "node_modules/decap-cms/dist/decap-cms.js": "lib/cms/decap-cms.js",
+        "node_modules/decap-cms/dist/decap-cms.js.map": "lib/cms/decap-cms.js.map",
         "node_modules/nunjucks/browser/nunjucks-slim.min.js": "lib/cms/nunjucks-slim.min.js",
         "node_modules/prop-types/prop-types.min.js": "lib/cms/prop-types.min.js",
         "node_modules/react/umd/react.development.js": "lib/cms/react.development.js",
         "node_modules/react/umd/react.production.min.js": "lib/cms/react.production.min.js"
     });
 
-    const now = new Date();
-
     // Custom collections
-    const livePosts = post => post.date <= now && !post.data.draft;
-
-    eleventyConfig.addCollection("posts", collection => {
-        return collection.getFilteredByGlob("./src/collections/posts/*.md").filter(livePosts);
+    eleventyConfig.addCollection("planning", collection => {
+        return collection.getFilteredByGlob("./src/collections/planning/*.md");
     });
 
-    // The following collection is used to create a collection of posts for the RSS feed.
-    eleventyConfig.addCollection("postFeed", collection => {
-        return collection.getFilteredByGlob("./src/collections/posts/*.md").filter(livePosts)
-            .reverse()
-            .slice(0, siteConfig.maxPostsInFeed);
+    eleventyConfig.addCollection("doing", collection => {
+        return collection.getFilteredByGlob("./src/collections/doing/*.md");
+    });
+
+    eleventyConfig.addCollection("reflecting", collection => {
+        return collection.getFilteredByGlob("./src/collections/reflecting/*.md");
     });
 
     // Plugins
@@ -69,8 +64,9 @@ module.exports = function (eleventyConfig) {
         i18n: false
     });
     eleventyConfig.addPlugin(navigationPlugin);
-    eleventyConfig.addPlugin(rssPlugin);
-    eleventyConfig.addPlugin(syntaxHighlightPlugin);
+
+    // Shortcodes
+    eleventyConfig.addShortcode("image", imageShortcode);
 
     return {
         dir: {

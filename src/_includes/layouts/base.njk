@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
 
-        <title>{% if title %} {{ title }} | {% endif %} {{ site.name }}</title>
+        <title>{% if title %} {{ title }} | {{ site.title }} {% else %} {{ site.title }} {% endif %}</title>
 
         {% include "partials/global/stylesheets.njk" %}
 
@@ -21,17 +21,27 @@
         {% include "partials/global/header.njk" %}
         <main>
             <article>
-                {% block pageHeader %}
-                <header>
-                    <h1>{{ title }}</h1>
+                <nav class="[ flc-toc-tocContainer ] [ wrapper ]"></nav>
+                <header class="[ header ]{% if headerBg %} [ bg bg--{{ headerBg }} ]{% endif %}{% if headerText %} [ text--{{ headerText }} ]{% endif %}">
+                    <div class="[ wrapper ]">
+                        <div class="[ prose ]">
+                        {% block pageHeader %}
+                            <h1>{{ title }}</h1>
+                            {% if subtitle %}
+                            <p class="[ subtitle ] [ prose ]">{{ subtitle | safe }}</p>
+                            {% endif %}
+                            {% if page.url === "/" %}
+                            <p class="[ sm:center ]"><a class="call-to-action" rel="external" href="https://create.weavly.org">Create</a></p>
+                            {% endif %}
+                        {% endblock %}
+                        </div>
+                    </div>
                 </header>
-                {% endblock %}
-                <nav class="flc-toc-tocContainer"></nav>
-                {% block content %}
-                <div class="content">
-                {{ content | safe }}
+                <div class="[ content ]">
+                    {% block content %}
+                    {{ content | safe }}
+                    {% endblock %}
                 </div>
-                {% endblock %}
             </article>
         </main>
         {% include "partials/global/footer.njk" %}
