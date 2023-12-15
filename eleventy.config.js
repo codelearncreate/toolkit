@@ -14,7 +14,6 @@ https://github.com/codelearncreate/co-design/raw/main/LICENSE.md.
 
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
-const imageShortcode = require("./src/_shortcodes/image.js");
 
 // Import transforms
 const parseTransform = require("./src/_transforms/parse-transform.js");
@@ -30,6 +29,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"src/admin/config.yml": "admin/config.yml"});
     eleventyConfig.addPassthroughCopy({"src/assets/icons": "/"});
     eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
+    eleventyConfig.addPassthroughCopy({"src/assets/uploads": "assets/uploads"});
     eleventyConfig.addPassthroughCopy({
         "node_modules/decap-cms/dist/decap-cms.js": "lib/cms/decap-cms.js",
         "node_modules/decap-cms/dist/decap-cms.js.map": "lib/cms/decap-cms.js.map",
@@ -40,16 +40,26 @@ module.exports = function (eleventyConfig) {
     });
 
     // Custom collections
+    eleventyConfig.addCollection("pages", collection => {
+        return collection.getFilteredByGlob("./src/collections/pages/*.md");
+    });
+
     eleventyConfig.addCollection("planning", collection => {
-        return collection.getFilteredByGlob("./src/collections/planning/*.md");
+        return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
+            return item.data.category === "planning";
+        });
     });
 
     eleventyConfig.addCollection("doing", collection => {
-        return collection.getFilteredByGlob("./src/collections/doing/*.md");
+        return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
+            return item.data.category === "doing";
+        });
     });
 
     eleventyConfig.addCollection("reflecting", collection => {
-        return collection.getFilteredByGlob("./src/collections/reflecting/*.md");
+        return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
+            return item.data.category === "reflecting";
+        });
     });
 
     // Plugins
@@ -66,7 +76,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(navigationPlugin);
 
     // Shortcodes
-    eleventyConfig.addShortcode("image", imageShortcode);
+    eleventyConfig.addShortcode("svgPlaceholder", function (width, height) {
+        return `<svg viewBox="0 0 ${width} ${height}" style="--width: ${width}px;" class="placeholder">
+        <rect width="${width}" height="${height}" />
+    </svg>`;
+    });
 
     return {
         dir: {

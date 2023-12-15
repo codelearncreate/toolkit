@@ -18,6 +18,10 @@
   position: absolute;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 @media (max-width: 959px) {
   .sm\:center {
     text-align: center;

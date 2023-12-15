@@ -1,12 +1,12 @@
 {% extends "layouts/base.njk" %}
 
-{% set bodyClass = "posts" %}
+{% set bodyClass = "guides" %}
 
 {% block pageHeader %}
-<header>
+  <div class="[ prose ]">
     <h1>{{ title }}</h1>
     <p class="[ subtitle ]">{{ subtitle | safe }}</p>
-</header>
+  <div class="[ prose ]">
 {% endblock %}
 
 {% block content %}
@@ -15,17 +15,13 @@
 The following code ensures we are always handling an array, even if it only has one item. #}
 
 {% set items = [] %}
-{% set items = items.concat(posts) %}
+{% set items = items.concat(guides) %}
 
-{% for item in items %}
-    <article class="entry">
-        <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-        {# <p class="metadata"><time datetime="{{ item.data.date | isoDate }}" class="dt-published">{{ item.data.date | formatDate }}</time></p> #}
-        {% if item.data.excerpt %}
-        <p>{{ item.data.excerpt | safe }}</p>
-        {% endif %}
-    </article>
+<div class="[ flow ] [ flow-md ] [ wrapper ]">
+{% for item in guides %}
+    {% include "partials/components/card--guide.njk" %}
 {% endfor %}
+</div>
 
 {% if pagination.href.previous or pagination.href.next %}
 {% include "partials/components/pagination.njk" %}

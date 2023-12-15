@@ -1,4 +1,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=libre-franklin:600,700,900|work-sans:400,400i,500,500i,600" rel="stylesheet" />
         <link href="/assets/styles/app.css" rel="stylesheet" />
+        {% if headerBg %}
+        <style>:root { --page-color: var(--color-{{ headerBg }}); }</style>
+        {% endif %}
         {% uioStyles %}

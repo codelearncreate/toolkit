@@ -1,5 +1,5 @@
 ---
-layout: layouts/posts
+layout: layouts/guides
 title: Doing
 subtitle: Moderating the interaction with children with disabilities in an
   inclusive and accessible manner.
@@ -8,5 +8,5 @@ order: 3
 pagination:
   data: collections.doing
   size: 10
-  alias: posts
+  alias: guides
 ---

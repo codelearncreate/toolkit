@@ -1,5 +1,5 @@
 ---
-layout: layouts/posts
+layout: layouts/guides
 title: Reflecting
 subtitle: "Making sense of the collected data from the interactions with
   children with disabilities."
@@ -8,5 +8,5 @@ order: 4
 pagination:
   data: collections.reflecting
   size: 10
-  alias: posts
+  alias: guides
 ---

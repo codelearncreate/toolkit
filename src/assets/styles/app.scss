@@ -27,34 +27,16 @@
 
 // 5. Components
 @import
-  "components/alert",
   "components/brand",
-  "components/button",
-  "components/call-to-action",
   "components/callout",
-  "components/card",
-  "components/filters",
-  "components/grid-image",
-  "components/grid-video",
-  "components/input",
-  "components/label",
-  "components/overlay",
   "components/navigation",
   "components/pagination",
-  "components/picture",
-  "components/placeholder",
-  "components/radio-group",
-  "components/select",
-  "components/table";
+  "components/placeholder";
 
 // 6. Page-specific styles
 @import
   "pages/home",
-  "pages/activities",
-  "pages/guides",
-  "pages/projects",
-  "pages/resources",
-  "pages/share";
+  "pages/guides";
 
 // 7. Themes
 @import

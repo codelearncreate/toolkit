@@ -84,6 +84,7 @@ groundRulesSection:
     Each child is different, and there are no fixed solutions, tools, or techniques to help us co-design with them. This toolkit is a place to reflect on what we have experienced through years of collaboration with children with disabilities, not to try to prescribe specific approaches or solutions.
 connectSection:
   title: Connect
+  titleLink: "mailto:idrc@ocadu.ca"
   content: Please email us or join our discussion list if you’d like to be part of
     this conversation.
 ---
