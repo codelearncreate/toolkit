@@ -31,7 +31,15 @@
     fill: var(--fl-bgColor, #fff);
   }
 
-  &.mono {
-    display: none;
+  .cls-4 {
+    fill: var(--fl-linkColor, #33717f);
+  }
+
+  .cls-5 {
+    stroke: var(--fl-linkColor, #30454f);
+  }
+
+  .cls-6 {
+    stroke: var(--fl-bgColor, #fff);
   }
 }
