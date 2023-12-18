@@ -1,9 +1,9 @@
             <nav class="[ nav ]" id="menu" aria-label="navigation menu">
                 <ul role="list">
-                    {% set navItems = collections.all | eleventyNavigation %}
+                    {% set navItems = collections.pages | eleventyNavigation %}
                     {% for item in navItems %}
                     <li>
-                        <a href="{{ item.url | url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+                        <a href="{{ item.url | url }}"{% if item.url == page.url %} aria-current="page"{% endif %}{% if item.title == categories[category] %} class="[ parent ]"{% endif %}>{{ item.title }}</a>
                     </li>
                     {% endfor %}
                 </ul>

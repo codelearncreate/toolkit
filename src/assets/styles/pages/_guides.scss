@@ -1,52 +1,164 @@
 // -----------------------------------------------------------------------------
-// This file contains styles that are specific to the manufacturers' guide page.
+// This file contains styles that are specific to the guides page.
 // -----------------------------------------------------------------------------
+.guides .guide img {
+  border-end-start-radius: var(--radius-lg);
+  border-inline-start: var(--space-lg) solid var(--page-color);
+  border-start-start-radius: var(--radius-lg);
+  inline-size: 100%;
+}
+
+.guides .guide figure {
+  position: relative;
+
+  &::after {
+    block-size: 100%;
+    border-end-start-radius: var(--radius-lg);
+    border-start-start-radius: var(--radius-lg);
+    content: "";
+    inline-size: 100%;
+    inset: 0;
+    position: absolute;
+  }
+}
+
 .guide {
-  @media (min-width: 960px) {
-    .header {
-      background-color: var(--color-white);
+  .header .spacer {
+    inline-size: calc(100% + 2 * var(--space-md));
+    margin-block-end: var(--space-md);
+    margin-inline-start: calc(-1 * var(--space-md));
+  }
 
-      figure {
-        inline-size: 100%;
-        margin-inline: auto;
-        max-inline-size: calc(540 / 16 * 1rem);
-      }
+  .header .tags {
+    margin-block-start: var(--space-sm);
+  }
 
-      .wrapper {
-        background-color: var(--color-green-85);
-        border-start-end-radius: var(--radius-md);
-        border-start-start-radius: var(--radius-md);
-        margin-block: var(--space-xl) 0;
-        margin-inline: auto;
-      }
-    }
+  .header .tag {
+    align-items: center;
+    background-color: var(--color-cream-95);
+    block-size: calc(38 / 16 * 1rem);
+    border-radius: var(--radius-xxs);
+    color: var(--color-black-05);
+    display: inline-flex;
+    margin-block: var(--space-xs);
+    padding-inline: var(--space-sm);
+  }
+}
 
-    .content {
-      .wrapper {
-        background-color: var(--color-green-85);
-        border-end-end-radius: var(--radius-md);
-        border-end-start-radius: var(--radius-md);
-        margin-block-end: var(--space-xl);
-        padding-block-start: 0;
-      }
+.wrapper.has-sidebar {
+  padding: 0;
 
-      .inner {
-        background-color: var(--color-white);
-        border-radius: var(--radius-md);
-        box-shadow: inset 0 rem(4) rem(4) rgb(0 0 0 / 25%);
-        max-inline-size: 100%;
-        padding: var(--space-lg);
+  .prose {
+    padding: var(--space-xl);
+  }
+}
 
-        .learning-resource {
-          display: flex;
-          justify-content: space-between;
+.guide .sidebar h2 {
+  display: inline;
+  position: relative;
 
-          + .learning-resource {
-            border-block-start: var(--border-hairline) solid var(--color-black-05);
-            padding-block-start: var(--space-md);
-          }
-        }
-      }
+  @supports (mask-image: url("../images/wavy.svg")) {
+    &::after {
+      background-color: currentcolor;
+      block-size: rem(7);
+      content: "";
+      display: block;
+      inline-size: 100%;
+      inset-block-end: calc(-1 * var(--space-sm));
+      inset-inline-start: 0;
+      mask-image: url("../images/wavy.svg");
+      mask-position: left -5px top 50%;
+      mask-repeat: repeat-x;
+      mask-size: rem(294) rem(7);
+      position: absolute;
     }
   }
+
+  @supports (not (mask-image: url("../images/wavy.svg"))) {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: var(--space-sm);
+  }
+}
+
+.guide .sidebar nav {
+  margin-block-start: var(--space-lg);
+}
+
+.guide .sidebar nav a[aria-current="page"] {
+  font-weight: var(--font-weight-bold);
+}
+
+.guide .examples {
+  margin-block: var(--space-lg);
+  padding: var(--space-lg);
+}
+
+@media (min-width: 960px) {
+  .guides .guide img {
+    max-inline-size: 27.5rem;
+  }
+
+  .guide .header {
+    border-block-end: var(--border-thin) solid var(--color-white);
+
+    .spacer {
+      margin-block-end: 0;
+      margin-inline-start: 0;
+    }
+  }
+
+  .guide .header .wrapper {
+    display: flex;
+    padding: 0;
+
+    div {
+      block-size: 23rem;
+      border-inline-start: var(--border-thin) solid var(--color-white);
+      display: flex;
+      flex-direction: column;
+      inline-size: 100%;
+      justify-content: flex-end;
+      padding-block: 0 var(--space-lg);
+      padding-inline: var(--space-xl);
+    }
+
+    .spacer {
+      border-inline-start: none;
+      inline-size: 100%;
+      max-inline-size: 33rem;
+    }
+  }
+
+  .guide .wrapper.has-sidebar {
+    display: flex;
+    padding-inline: 0;
+  }
+
+  .guide .sidebar {
+    inline-size: 100%;
+    max-inline-size: 33rem;
+  }
+
+  .guide .prose {
+    inline-size: 100%;
+    padding-inline: var(--space-xl);
+  }
+}
+
+.supportive-materials a {
+  text-decoration: none;
+
+  svg {
+    margin-block-end: calc(-1 * var(--space-xs));
+    margin-inline-start: var(--space-sm);
+  }
+}
+
+.supportive-materials p {
+  border-block-start: var(--border-hairline) solid var(--color-black-05);
+  display: flex;
+  justify-content: space-between;
+  margin-block-start: var(--space-md);
+  padding-block-start: var(--space-md);
 }

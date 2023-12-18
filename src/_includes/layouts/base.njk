@@ -24,7 +24,6 @@
                 <nav class="[ flc-toc-tocContainer ] [ wrapper ]"></nav>
                 <header class="[ header ]{% if headerBg %} [ bg bg--{{ headerBg }} ]{% endif %}{% if headerText %} [ text--{{ headerText }} ]{% endif %}">
                     <div class="[ wrapper ]">
-                        <div class="[ prose ]">
                         {% block pageHeader %}
                             <h1>{{ title }}</h1>
                             {% if subtitle %}
@@ -34,7 +33,6 @@
                             <p class="[ sm:center ]"><a class="call-to-action" rel="external" href="https://create.weavly.org">Create</a></p>
                             {% endif %}
                         {% endblock %}
-                        </div>
                     </div>
                 </header>
                 <div class="[ content ]">

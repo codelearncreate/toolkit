@@ -26,7 +26,8 @@
   position: relative;
   text-decoration: none;
 
-  &[aria-current="page"] {
+  &[aria-current="page"],
+  &.parent {
     @supports (mask-image: url("../images/wavy.svg")) {
       &::after {
         background-color: currentcolor;
@@ -51,6 +52,14 @@
     }
 
     font-weight: var(--font-weight-black);
+
+    &:visited {
+      color: currentcolor;
+
+      &:hover {
+        color: var(--fl-linkColor, var(--color-green-45));
+      }
+    }
   }
 
   &:hover {

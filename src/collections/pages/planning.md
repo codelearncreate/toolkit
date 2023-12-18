@@ -1,5 +1,5 @@
 ---
-layout: layouts/posts
+layout: layouts/guides
 title: Planning
 subtitle: Setting up an accessible and inclusive environment to collaborate with
   children with disabilities.
@@ -8,5 +8,5 @@ order: 2
 pagination:
   data: collections.planning
   size: 10
-  alias: posts
+  alias: guides
 ---

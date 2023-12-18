@@ -25,31 +25,62 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Content, name: content, widget: markdown}
+              - label: Content
+                name: content
+                widget: markdown
+                buttons:
+                  [heading-three, heading-four, bold, italic, link]
+                editor_components: []
+
           - label: Ground Rules
             name: groundRulesSection
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Content, name: content, widget: markdown}
+              - label: Content
+                name: content
+                widget: markdown
+                buttons:
+                  [heading-three, heading-four, bold, italic, link]
+                editor_components: []
+
           - label: How To
             name: howToSection
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Content, name: content, widget: markdown}
+              - label: Content
+                name: content
+                widget: markdown
+                buttons:
+                  [heading-three, heading-four, bold, italic, link]
+                editor_components: []
+
           - label: Contributors
             name: contributorsSection
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Content, name: content, widget: markdown}
+              - label: Content
+                name: content
+                widget: markdown
+                buttons:
+                  [heading-three, heading-four, bold, italic, link]
+                editor_components: []
+
           - label: Connect
             name: connectSection
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Content, name: content, widget: markdown}
+              - {label: Title Link, name: titleLink, widget: string}
+              - label: Content
+                name: content
+                widget: markdown
+                buttons:
+                  [heading-three, heading-four, bold, italic, link]
+                editor_components: []
+
       - label: Planning
         name: planning
         file: src/collections/pages/planning.md
@@ -74,6 +105,60 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: text}
+  - name: guides
+    label: Guides
+    label_singular: Guide
+    folder: src/collections/guides
+    slug: "{{slug}}"
+    preview_path: "/{{fields.category}}/{{slug}}"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime, timeFormat: false}
+      - label: Order
+        name: order
+        widget: number
+        default: 0
+        min: 0
+        step: 1
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - {label: Planning, value: planning}
+          - {label: Doing, value: doing}
+          - {label: Reflecting, value: reflecting}
+      - {label: Description, name: description, widget: string}
+      - {label: Preview Image, name: metaImage, widget: image, required: false}
+      - {label: Preview Image Alt Text, name: metaImageAlt, widget: string, required: false}
+      - label: Body
+        name: body
+        widget: markdown
+        default: "## Description\n\n## Suggestions\n\n"
+        buttons:
+          - heading-two
+          - heading-three
+          - heading-four
+          - bold
+          - italic
+          - link
+
+        editor_components: []
+      - label: Examples
+        name: examplesSection
+        widget: markdown
+        buttons: [bold, italic, link]
+        editor_components: [image]
+      - label: Supportive Materials
+        name: supportiveMaterials
+        widget: list
+        summary: "{{fields.label}}"
+        required: false
+        fields:
+          - {label: Label, name: label, widget: string}
+          - {label: File, name: file, widget: file}
   - label: Site Configuration
     name: config
     files:
@@ -82,7 +167,11 @@ collections:
         file: src/_data/config.json
         fields:
           - {label: URL, name: url, widget: string}
-          - {label: Maximum Posts in RSS Feed, name: maxPostsInFeed, widget: number, min: 1}
+          - label: Maximum Posts in RSS Feed
+            name: maxPostsInFeed
+            widget: number
+            min: 1
+
   - label: Site Data
     name: data
     files:
