@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/codelearncreate/co-design/compare/v1.0.0...v1.0.1) (2023-12-18)
+
+
+### Bug Fixes
+
+* configure editorial workflow ([#24](https://github.com/codelearncreate/co-design/issues/24)) ([719ad3d](https://github.com/codelearncreate/co-design/commit/719ad3dfed9988948e26ab4bcdc2b411fb7da814))
+
 ## 1.0.0 (2023-12-18)
 
 
