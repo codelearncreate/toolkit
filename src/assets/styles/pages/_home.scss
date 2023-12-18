@@ -5,3 +5,33 @@
 .home article .header .prose {
   margin-inline: auto;
 }
+
+.home .contributors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-inline: auto;
+  row-gap: calc(5 * var(--space-md));
+
+  a {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+      display: block;
+      margin-inline: auto;
+    }
+
+    span {
+      display: block;
+      margin-block-start: var(--space-sm);
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .home .contributors {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
