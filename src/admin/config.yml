@@ -184,3 +184,15 @@ collections:
           - {label: Author Name, name: authorName, widget: string}
           - {label: Author Email, name: authorEmail, widget: string}
           - {label: Author Website, name: authorWebsite, widget: string}
+      - label: Contributors
+        name: contributors
+        file: src/_data/contributors.json
+        fields:
+          - label: Contributors
+            name: contributors
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+              - {label: Photo, name: photo, widget: image, required: false}
