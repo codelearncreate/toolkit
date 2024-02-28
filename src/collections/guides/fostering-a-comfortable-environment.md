@@ -22,14 +22,26 @@ Identifying settings where the child already feels freedom/comfort in expressing
 
 ## Suggestions
 
-**Assisting Teachers:** Offer your assistance to teachers during a couple of classes, and engage alongside the children. Your presence helps the children become more comfortable with you over time.
+### **Assisting Teachers**
 
-**Shadowing Classes:** Request permission to shadow a class for a week or several days. This extended interaction allows the children to get used to your presence and feel more relaxed.
+Offer your assistance to teachers during a couple of classes, and engage alongside the children. Your presence helps the children become more comfortable with you over time.
 
-**Recognizing the child’s preferred modes of communication:** Some children prefer alternative modes of communication to speech, be it touch, AAC, picture cards, or even gestures. Get to know the child’s preferred modes of communication and set aside time to explicitly agree on the modes that they use. For example, understanding how they express yes/no, or how they signal agreement, discomfort, not understanding, tiredness, pain, etc.
+### **Shadowing Classes**
 
-**Sharing welcome videos or pictures:** Prepare a short video, or a series of picture cards that feature you and any other facilitators to introduce yourselves and share that you will be meeting them soon to work on a cool project. Sharing social stories with children ahead of time can also help them better prepare for the engagement. 
+Request permission to shadow a class for a week or several days. This extended interaction allows the children to get used to your presence and feel more relaxed.
 
-**Getting to know daily routines:** Collaborate with the family in getting to know the children’s daily routines. Knowledge of the family’s activities will help you understand the child’s schedule, which you could even reference when communicating with the child. 
+### **Recognizing the child’s preferred modes of communication**
 
-**Being present with the children:** Take some time to show your materials—prototypes, cameras, toys—to the child and let them explore these items. Allowing the child to know your materials will help them feel safe with unfamiliar items and activities to come.
+Some children prefer alternative modes of communication to speech, be it touch, AAC, picture cards, or even gestures. Get to know the child’s preferred modes of communication and set aside time to explicitly agree on the modes that they use. For example, understanding how they express yes/no, or how they signal agreement, discomfort, not understanding, tiredness, pain, etc.
+
+### **Sharing welcome videos or pictures**
+
+Prepare a short video, or a series of picture cards that feature you and any other facilitators to introduce yourselves and share that you will be meeting them soon to work on a cool project. Sharing social stories with children ahead of time can also help them better prepare for the engagement. 
+
+### **Getting to know daily routines**
+
+Collaborate with the family in getting to know the children’s daily routines. Knowledge of the family’s activities will help you understand the child’s schedule, which you could even reference when communicating with the child. 
+
+### **Being present with the children**
+
+Take some time to show your materials—prototypes, cameras, toys—to the child and let them explore these items. Allowing the child to know your materials will help them feel safe with unfamiliar items and activities to come.
