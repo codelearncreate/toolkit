@@ -1,7 +1,7 @@
 ---
 layout: layouts/guides
 title: Reflecting
-subtitle: Interpreting Data from Interactions with Children with Disabilities
+subtitle: Interpreting data from interactions with children with disabilities
 headerBg: green-55
 order: 4
 pagination:
