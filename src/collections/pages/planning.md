@@ -1,8 +1,8 @@
 ---
 layout: layouts/guides
 title: Planning
-subtitle: Setting up an accessible and inclusive environment to collaborate with
-  children with disabilities.
+subtitle: Setting up for an accessible and inclusive interaction with children
+  with disabilities
 headerBg: orange-75
 order: 2
 pagination:
