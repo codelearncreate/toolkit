@@ -3,7 +3,7 @@ title: Fostering a comfortable environment
 date: 2024-02-28T16:09:09.807Z
 order: 1
 category: planning
-description: Creating a comfortable environment is crucial for fostering active
+description: Creating a comfortable environment is crucial to encourage active
   participation from children with disabilities.
 examplesSection: TBD
 supportiveMaterials:
