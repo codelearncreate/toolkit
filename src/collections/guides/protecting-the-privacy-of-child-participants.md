@@ -5,10 +5,12 @@ order: 6
 category: planning
 description: Safeguarding the privacy of children with disabilities is a
   fundamental step in the collaboration process.
-examplesSection: TBD
+overviewSection: Safeguarding the privacy of children with disabilities is a
+  fundamental step in the collaboration process.
 supportiveMaterials:
   - label: A detailed resource about how to frame consent/assent strategy
-    file: https://www.uoguelph.ca/research/support-document/what-age-which-participants-can-consent-take-part-research
+    type: link
+    link: https://www.uoguelph.ca/research/support-document/what-age-which-participants-can-consent-take-part-research
 ---
 ## Description
 

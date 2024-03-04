@@ -5,10 +5,12 @@ order: 4
 category: planning
 description: "For effective co-design workshops with kids, thorough logistics
   planning is crucial. "
-examplesSection: TBD
+overviewSection: "For effective co-design workshops with kids, thorough logistics
+  planning is crucial. "
 supportiveMaterials:
   - label: Example of an access guide
-    file: https://co-design.inclusivedesign.ca/resources/creating-an-access-guide/
+    type: link
+    link: https://co-design.inclusivedesign.ca/resources/creating-an-access-guide/
 ---
 ## Description
 

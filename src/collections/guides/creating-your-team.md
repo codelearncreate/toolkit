@@ -6,7 +6,9 @@ category: planning
 description: Coordinating a co-design workshop with kids involves careful
   consideration of who should be present to create a comfortable and inclusive
   space.
-examplesSection: TBD
+overviewSection: Coordinating a co-design workshop with kids involves careful
+  consideration of who should be present to create a comfortable and inclusive
+  space.
 ---
 ## Description
 

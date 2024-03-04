@@ -138,6 +138,12 @@
   .guide .sidebar {
     inline-size: 100%;
     max-inline-size: 33rem;
+    position: relative;
+  }
+
+  .guide .sidebar .callout {
+    position: sticky;
+    top: 0;
   }
 
   .guide .prose {
@@ -147,17 +153,20 @@
 }
 
 .supportive-materials a {
+  align-items: center;
+  display: flex;
+  gap: var(--space-sm);
   text-decoration: none;
 
   svg {
     margin-block-end: calc(-1 * var(--space-xs));
-    margin-inline-start: var(--space-sm);
   }
 }
 
 .supportive-materials p {
   border-block-start: var(--border-hairline) solid var(--color-black-05);
   display: flex;
+  gap: var(--space-sm);
   justify-content: space-between;
   margin-block-start: var(--space-md);
   padding-block-start: var(--space-md);

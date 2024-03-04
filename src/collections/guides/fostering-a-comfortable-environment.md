@@ -5,12 +5,15 @@ order: 1
 category: planning
 description: Creating a comfortable environment is crucial to encourage active
   participation from children with disabilities.
-examplesSection: TBD
+overviewSection: "Creating a comfortable environment is crucial to encourage
+  active participation from children with disabilities. "
 supportiveMaterials:
   - label: Video created for children to explain the role of a researcher
-    file: https://www.ucl.ac.uk/ioe/departments-and-centres/departments/culture-communication-and-media/what-researcher-video-children
+    type: link
+    link: https://www.ucl.ac.uk/ioe/departments-and-centres/departments/culture-communication-and-media/what-researcher-video-children
   - label: More information about social stories and how to use them
-    file: https://therapyworks.com/blog/language-development/home-tips/using-social-stories-improve-childs-development/
+    type: link
+    link: https://therapyworks.com/blog/language-development/home-tips/using-social-stories-improve-childs-development/
 ---
 ## Description
 

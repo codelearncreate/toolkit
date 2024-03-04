@@ -20,33 +20,26 @@
 {% block content %}
   <div class="[ wrapper ] [ has-sidebar ]">
     <div class="[ sidebar ] [ bg bg--cream-95 ]">
-        <div class="[ callout ]">
-            <h2 id="secondary">{{ categories[category] }}</h2>
-            <nav aria-labelledby="secondary">
-                <ul role="list" class="[ flow ]">
-                    {% set navItems = collections.all | eleventyNavigation(categories[category]) %}
-                    {% for item in navItems %}
-                    <li>
-                        <a href="{{ item.url | url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </nav>
+        <div class="[ callout ] [ flow ] [ flow-lg ]">
+            <h2>Overview</h2>
+            {% if overviewSection %}
+            {% renderString overviewSection, "md" %}
+            {% endif %}
         </div>
     </div>
     <div class="[ prose ]">
         {{ content | safe }}
-        {% if examplesSection %}
+        {% if exampleSection %}
         <div class="[ flow ] [ bg bg--cream-95 ] [ examples ]">
-            <h2>Examples</h2>
-        {% renderString examplesSection, "md" %}
+            <h2>Example</h2>
+        {% renderString exampleSection, "md" %}
         </div>
         {% endif %}
         {% if supportiveMaterials %}
         <div class="[ supportive-materials ] [ flow ]">
         <h2>Supportive Materials</h2>
         {% for item in supportiveMaterials %}
-        <p><span>Supportive Material: {{ item.label }}</span> <a download href="{{ item.file }}"><span class="underline">Download</span> <span class="visually-hidden">{{ item.label }}</span> {% include "svg/download.svg" %}</a></p>
+        <p><span>{{ item.label }}</span> <a {% if item.type == 'file' %}download {% endif %}href="{{ item.link }}"><span class="underline">{{ 'Download' if item.type == 'file' else 'View' }}</span> <span class="visually-hidden">{{ item.label }}</span> {% if item.type == 'file' %}{% include "svg/download.svg" %}{% else %}{% include "svg/external.svg" %}{% endif %}</a></p>
         {% endfor %}
         </div>
         {% endif %}
