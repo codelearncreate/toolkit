@@ -1,13 +1,14 @@
+        {% set previous = collections[category] | getPreviousCollectionItem(page) %}
+        {% set next = collections[category] | getNextCollectionItem(page) %}
+        
         <nav class="pagination" aria-label="posts pagination">
-            <ul>
-            {%- if pagination.href.previous %}
-                <li><a href="{{ pagination.href.previous }}"><span aria-hidden="true">&larr;</span><span class="visually-hidden">previous</span></a></li>
+            <ul role="list">
+            {%- if previous %}
+                <li><a href="{{ previous.url }}"><span aria-hidden="true">&larr;</span><span class="visually-hidden">previous</span></a></li>
             {%- endif %}
-            {%- for pageEntry in pagination.pages %}
-                <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %} aria-label="Page {{ loop.index }} of {{ pagination.pages.length }}">{{ loop.index }}</a></li>
-            {%- endfor %}
-            {%- if pagination.href.next %}
-                <li><a href="{{ pagination.href.next }}"><span class="visually-hidden">next</span><span aria-hidden="true">&rarr;</span></a></li>
+            
+            {%- if next %}
+                <li><a href="{{ next.url }}"><span class="visually-hidden">next</span><span aria-hidden="true">&rarr;</span></a></li>
             {%- endif %}
             </ul>
         </nav>
