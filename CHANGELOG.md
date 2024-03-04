@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/codelearncreate/co-design/compare/v1.0.1...v1.1.0) (2024-03-04)
+
+
+### Features
+
+* add overview and display in sidebar ([abb3204](https://github.com/codelearncreate/co-design/commit/abb3204f411c1ee50049b54d14d07a0c204fca3d))
+* add page navigation ([#66](https://github.com/codelearncreate/co-design/issues/66)) ([ea96b30](https://github.com/codelearncreate/co-design/commit/ea96b30625e07eda88f2a9dde42c00a3bd466b02))
+* add ul, ol, and images to CMS ([#65](https://github.com/codelearncreate/co-design/issues/65)) ([abb3204](https://github.com/codelearncreate/co-design/commit/abb3204f411c1ee50049b54d14d07a0c204fca3d))
+* change H3 to 24px (1.5rem) ([#59](https://github.com/codelearncreate/co-design/issues/59)) ([0362605](https://github.com/codelearncreate/co-design/commit/0362605b7658c64e33c411d2eef4c6a5a48f1aaf))
+* hide description from cards ([abb3204](https://github.com/codelearncreate/co-design/commit/abb3204f411c1ee50049b54d14d07a0c204fca3d))
+* make example field optional ([abb3204](https://github.com/codelearncreate/co-design/commit/abb3204f411c1ee50049b54d14d07a0c204fca3d))
+* support external links or files for supportive material ([abb3204](https://github.com/codelearncreate/co-design/commit/abb3204f411c1ee50049b54d14d07a0c204fca3d))
+
 ## [1.0.1](https://github.com/codelearncreate/co-design/compare/v1.0.0...v1.0.1) (2023-12-18)
 
 
