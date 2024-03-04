@@ -4,7 +4,7 @@ const categories = require("../../_data/categories.json");
 
 module.exports = {
     eleventyComputed: {
-        eleventyNavigation: data => {
+        eleventyNavigation: (data) => {
             /* If this page has an `order` attribute, create an Eleventy Navigation object for it. */
             if (data.order) {
                 return {
