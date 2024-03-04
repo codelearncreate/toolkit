@@ -5,7 +5,8 @@ order: 7
 category: planning
 description: Thoughtfully planned collaborative activities provide a starting
   point for exploration and innovation.
-examplesSection: TBD
+overviewSection: Thoughtfully planned collaborative activities provide a starting
+  point for exploration and innovation.
 ---
 ## Description
 

@@ -24,11 +24,10 @@ introSection:
 
     Children with disabilities are greatly impacted by the design of products, services, and environments around us. Unfortunately, they are often left out of the research, design, and development processes, pushed to the sidelines while decisions are made on their behalf by adult designers, researchers, and domain experts who may not have lived/living experiences of disability. Even when their caregivers or parents are involved, the children themselves are rarely given a voice.
 
-
     By directly engaging and co-creating with children with disabilities, we can gain invaluable insights into their needs and preferences. No more assuming what they like or need; instead, we'll work directly with them to co-create something they can use and enjoy. However, there are a host of challenges that impact on child participation and expression of ideas in a collaborative process; some structural, some interactional, some practical or physical or motivational. Many factors, including their physical abilities, environmental, psychological, and social context, can/may interfere with their participation.
 
 
-    ### Goals 
+    ### Goals
 
 
     This resource is about fostering direct interactions with children with disabilities, empowering them to share their creativity and ideas in ways that are significant to them. We'll share experiences about how to learn from their unique perspectives, uncover needs, challenges, and gaps that might have otherwise gone unnoticed. This resource is an ever-growing collection that thrives on the contributions of educators, researchers, and designers who decide to share their experiences in a public forum.

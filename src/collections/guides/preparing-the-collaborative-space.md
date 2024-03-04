@@ -5,7 +5,8 @@ order: 5
 category: planning
 description: "Work with teachers, parents, and caregivers to create a safe and
   comfortable environment for collaboration with children with disabilities. "
-examplesSection: TBD
+overviewSection: "Work with teachers, parents, and caregivers to create a safe and
+  comfortable environment for collaboration with children with disabilities. "
 ---
 ## Description
 

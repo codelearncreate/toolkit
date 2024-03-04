@@ -39,8 +39,8 @@ collections:
                 name: content
                 widget: markdown
                 buttons:
-                  [heading-three, heading-four, bold, italic, link]
-                editor_components: []
+                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                editor_components: [image]
 
           - label: Ground Rules
             name: groundRulesSection
@@ -51,8 +51,8 @@ collections:
                 name: content
                 widget: markdown
                 buttons:
-                  [heading-three, heading-four, bold, italic, link]
-                editor_components: []
+                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                editor_components: [image]
 
           - label: How To
             name: howToSection
@@ -63,8 +63,8 @@ collections:
                 name: content
                 widget: markdown
                 buttons:
-                  [heading-three, heading-four, bold, italic, link]
-                editor_components: []
+                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                editor_components: [image]
 
           - label: Contributors
             name: contributorsSection
@@ -75,8 +75,8 @@ collections:
                 name: content
                 widget: markdown
                 buttons:
-                  [heading-three, heading-four, bold, italic, link]
-                editor_components: []
+                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                editor_components: [image]
 
           - label: Connect
             name: connectSection
@@ -88,8 +88,8 @@ collections:
                 name: content
                 widget: markdown
                 buttons:
-                  [heading-three, heading-four, bold, italic, link]
-                editor_components: []
+                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                editor_components: [image]
 
       - label: Planning
         name: planning
@@ -143,6 +143,13 @@ collections:
       - {label: Description, name: description, widget: string}
       - {label: Preview Image, name: metaImage, widget: image, required: false}
       - {label: Preview Image Alt Text, name: metaImageAlt, widget: string, required: false}
+      - label: Overview
+        name: overviewSection
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
       - label: Body
         name: body
         widget: markdown
@@ -154,12 +161,14 @@ collections:
           - bold
           - italic
           - link
-
-        editor_components: []
-      - label: Examples
-        name: examplesSection
+          - bulleted-list
+          - numbered-list
+        editor_components: [image]
+      - label: Example
+        name: exampleSection
         widget: markdown
-        buttons: [bold, italic, link]
+        required: false
+        buttons: [bold, italic, link, bulleted-list, numbered-list]
         editor_components: [image]
       - label: Supportive Materials
         name: supportiveMaterials
@@ -168,7 +177,8 @@ collections:
         required: false
         fields:
           - {label: Label, name: label, widget: string}
-          - {label: File, name: file, widget: file}
+          - {label: Type, name: type, widget: select, options: [{value: file, label: File}, {value: link, label: Link}]}
+          - {label: Link, name: link, widget: file}
   - label: Site Configuration
     name: config
     files:

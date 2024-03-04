@@ -11,9 +11,6 @@
                     <div class="[ two:three__three ] [ flow ]">
                     <h2>{{ item.data.title }}</h2>
                         <p class="[ metadata ]">Posted <time datetime="{{ item.date | isoDate }}" class="dt-published">{{ item.date | formatDate }}</time></p>
-                        {% if item.data.description %}
-                        <p>{{ item.data.description | safe }}</p>
-                        {% endif %}
                         <p><a href="{{ item.url }}" rel="external">Read more<span class="[ visually-hidden ]"> of &ldquo;{{ item.data.title }}&rdquo;</span></a></p>
                     </div>
                 </article>
