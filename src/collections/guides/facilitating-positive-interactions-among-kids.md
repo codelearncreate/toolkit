@@ -25,8 +25,6 @@ In collaborative workshops, children often interact with others, whether through
 
 **Other activities around the session:** Some children with disabilities have busy lives, such as having therapist visits, adult assisted personal care routines, or doctors appointments. It is important to be aware of what other activities wrap around the session.
 
-
-
 ## Suggestions
 
 ### Get to Know the Kids
