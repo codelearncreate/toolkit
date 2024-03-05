@@ -1,22 +1,28 @@
 ---
 title: Fostering a comfortable environment
-date: 2024-02-28T16:09:09.807Z
+date: 2024-03-05T16:11:49.635Z
 order: 1
 category: planning
 description: Creating a comfortable environment is crucial to encourage active
   participation from children with disabilities.
-overviewSection: "Creating a comfortable environment is crucial to encourage
-  active participation from children with disabilities. "
+overviewSection: Establishing trust is key for the involvement of children with
+  disabilities. This requires recognizing their interests, engaging in various
+  activities, and adapting roles to their needs. Collaboration with parents and
+  teachers is vital in identifying settings where children feel comfortable
+  expressing themselves. Practical suggestions include aiding teachers,
+  shadowing classes, understanding preferred communication modes, sharing
+  welcome materials, learning daily routines, and being present with the
+  children.
 exampleSection: >-
   ![A collection of sticky notes with notes from
   teachers](/assets/uploads/teachers-workshop.jpg "Notes from an exploration
   session with the partnering school teachers")
 
 
-  Right from the beginning of the Weavly project, we partnered with a school that specializes in working with children with special needs and multiple exceptionalities. In the beginning, we had a few meetings with a group of teachers to share the project goals and learn more about their community, students' diversity, and unique needs. Together we drafted a plan to start assisting in the Arts room before beginning our engagement. 
+  From the start of the Weavly project, we partnered with a school specializing in children with special needs and multiple exceptionalities. After initial meetings with teachers to discuss project goals and understand their community, students' diversity, and unique needs, we mutually decided that our team would assist in the Arts room before formal engagement. 
 
 
-  A small team of our designers/researchers joined the art room for several weeks. We helped the teachers in running the art and craft activities with children from different classes. Our presence in the classroom for several weeks not only helped us to learn more about each individual student, their preferences, and the dynamics in the school, but it also helped the students to become more familiar with us and recognize our faces and, in some cases, expect us to be there in the art room along with their teachers.
+  A small team of our designers/researchers spent several weeks in the art room, aiding teachers with various activities. Our continuous presence not only not only helped us to learn more about each individual student, their preferences, and the dynamics in the school, but it also helped the students to become more familiar with us and recognize our faces and, in some cases, expect us to be there in the art room along with their teachers.
 supportiveMaterials:
   - label: Video created for children to explain the role of a researcher
     type: link
