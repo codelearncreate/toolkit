@@ -7,6 +7,16 @@ description: Creating a comfortable environment is crucial to encourage active
   participation from children with disabilities.
 overviewSection: "Creating a comfortable environment is crucial to encourage
   active participation from children with disabilities. "
+exampleSection: >-
+  ![A collection of sticky notes with notes from
+  teachers](/assets/uploads/teachers-workshop.jpg "Notes from an exploration
+  session with the partnering school teachers")
+
+
+  Right from the beginning of the Weavly project, we partnered with a school that specializes in working with children with special needs and multiple exceptionalities. In the beginning, we had a few meetings with a group of teachers to share the project goals and learn more about their community, students' diversity, and unique needs. Together we drafted a plan to start assisting in the Arts room before beginning our engagement. 
+
+
+  A small team of our designers/researchers joined the art room for several weeks. We helped the teachers in running the art and craft activities with children from different classes. Our presence in the classroom for several weeks not only helped us to learn more about each individual student, their preferences, and the dynamics in the school, but it also helped the students to become more familiar with us and recognize our faces and, in some cases, expect us to be there in the art room along with their teachers.
 supportiveMaterials:
   - label: Video created for children to explain the role of a researcher
     type: link
