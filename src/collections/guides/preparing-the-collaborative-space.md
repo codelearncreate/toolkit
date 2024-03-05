@@ -25,7 +25,7 @@ exampleSection: >-
   Despite our thoughtful planning, setups weren't always perfect; for instance, we had planned an activity to run robots with Weavly and make them paint geometric shapes on the floor, as shown in the image here. However, one of our students couldn't engage in this floor-level activity to track their robot and execute their program. In this situation, we used an iPad to film the floor activity and streamed it to a laptop placed for easy visibility. Although planning the space was a big help, our team was always ready to make changes on the fly to ensure everyone could equally participate.
 
 
-  In many sessions, we had to run back-to-back workshops with different groups of students with diverse needs. We only had a few minutes in between the sessions to reorganize the space based on the needs of the new group. Having important points documented and available in the facilitation plan immensely helped our team to effectively reorganize the space in a short time.
+  In many sessions, we had to run back-to-back workshops with different groups of students with diverse needs. We only had a few minutes in between the sessions to reorganize the space based on the needs of the new group. Having important points documented and available in the facilitation plan immensely helped our team to effectively reorganize the space in a short time
 ---
 ## Description
 
