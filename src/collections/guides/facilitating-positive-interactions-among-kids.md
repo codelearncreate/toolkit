@@ -12,6 +12,15 @@ overviewSection: In co-design sessions with children with disabilities, it's
   consulting with teachers and parents about their daily routines, enables more
   thoughtful planning of group activities. This consideration positively impacts
   the dynamics between the children, minimizing the chances of tensions.
+exampleSection: >-
+  ![Working with a student on Weavly](/assets/uploads/20220407_101251.jpg
+  "Working with a student on Weavly")
+
+
+  The [Weavly](https://weavly.org/) team collaborated with teachers to determine the optimal time and day for our proposed activities in each session. However, flexibility was crucial due to changes in the school schedule. For instance, morning sessions might shift to the afternoon due to other school activities. Planned pairings sometimes changed on the spot if students didn't show up or chose not to participate. This required both advance planning and adaptability to ensure students could still work together with sufficient energy and motivation. 
+
+
+  We proactively discussed potential groups or pairings with teachers for each class. Teachers also informed us about other activities around the session, such as whether students were coming from swimming, lunch, gym, or doctor's appointment, influencing their energy levels. Communication with teachers, including details like seating arrangements and students' moods, was essential for ensuring a positive experience for the students.
 ---
 ## Description
 
