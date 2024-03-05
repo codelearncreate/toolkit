@@ -19,7 +19,7 @@ exampleSection: >-
   session with the partnering school teachers")
 
 
-  From the start of the Weavly project, we partnered with a school specializing in children with special needs and multiple exceptionalities. After initial meetings with teachers to discuss project goals and understand their community, students' diversity, and unique needs, we mutually decided that our team would assist in the Arts room before formal engagement. 
+  From the start of the [Weavly](https://weavly.org/) project, we partnered with a school specializing in children with special needs and multiple exceptionalities. After initial meetings with teachers to discuss project goals and understand their community, students' diversity, and unique needs, we mutually decided that our team would assist in the Arts room before formal engagement. 
 
 
   A small team of our designers/researchers spent several weeks in the art room, aiding teachers with various activities. Our continuous presence not only not only helped us to learn more about each individual student, their preferences, and the dynamics in the school, but it also helped the students to become more familiar with us and recognize our faces and, in some cases, expect us to be there in the art room along with their teachers.
