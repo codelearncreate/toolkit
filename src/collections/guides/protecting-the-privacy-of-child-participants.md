@@ -16,7 +16,7 @@ overviewSection: In collaborations involving children with disabilities,
   your organization is often working with children, develop a child safeguarding
   policy outlining best practices and privacy protection for your team.
 supportiveMaterials:
-  - label: How to frame consent/assent strategy
+  - label: A detailed resource about how to frame consent/assent strategy
     type: link
     link: https://www.uoguelph.ca/research/support-document/what-age-which-participants-can-consent-take-part-research
 ---
