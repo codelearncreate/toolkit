@@ -5,30 +5,26 @@ order: 5
 category: planning
 description: "Work with teachers, parents, and caregivers to create a safe and
   comfortable environment for collaboration with children with disabilities. "
-overviewSection: For successful in-person workshops with children with
-  disabilities, consider essential factors like layout, lighting, noise,
-  projection, furniture, and a quiet space. Consulting with caregivers,
-  teachers, and others is crucial to understand the children's needs and
-  preferences. Key considerations include flexible layouts for diverse
-  activities, balanced lighting, minimizing noise, and providing a quiet retreat
-  space. Furniture should be adjustable for accessibility and safety
-  precautions.
+overviewSection: For effective in-person workshops with children with
+  disabilities, consider factors like layout, lighting, noise, projection,
+  furniture, and a quiet space. Consulting with caregivers, teachers, and others
+  is crucial to understand the children's needs and preferences. Key
+  considerations include flexible layouts for diverse activities, balanced
+  lighting, minimizing noise, and providing a quiet retreat space. Furniture
+  should be adjustable for accessibility and safety precautions.
 exampleSection: >-
-  In preparation for various activities, our team often needed time to set up
-  the space. For workshops outside the school, we arranged setups days prior to
-  ensure chairs, desks, and pathways catered to our participants' needs. In
-  school, we coordinated with teachers and arrived early to set up. While
-  classrooms were usually ready, additional setup was required for off-site
-  activities like the gym or library.
+  
+
+  ![Floor level painting activity with children on wheelchair and facilitators ](/assets/uploads/design-activity-using-the-prototype_hubcbd8cb1fbfe2b60d025736e0186a09d_2552060_1000x0_resize_q75_box.jpg "Painting on the floor with Weavly was inaccessible for some of the students using mobility devices.")
+
+
+  In preparation for various activities, our team often needed time to set up the space. For workshops outside the school, we arranged setups days prior to ensure chairs, desks, and pathways catered to our participants' needs. In school, we coordinated with teachers and arrived early to set up. While classrooms were usually ready, additional setup was required for off-site activities like the gym or library.
 
 
   Despite our thoughtful planning, setups weren't always perfect; for instance, we had planned an activity to run robots with Weavly and make them paint geometric shapes on the floor, as shown in the image here. However, one of our students couldn't engage in this floor-level activity to track their robot and execute their program. In this situation, we used an iPad to film the floor activity and streamed it to a laptop placed for easy visibility. Although planning the space was a big help, our team was always ready to make changes on the fly to ensure everyone could equally participate.
 
 
-  ![Floor level painting activity with children on wheelchair and facilitators ](/assets/uploads/design-activity-using-the-prototype_hubcbd8cb1fbfe2b60d025736e0186a09d_2552060_1000x0_resize_q75_box.jpg "Painting on the floor with Weavly")
-
-
-  In many sessions, we had to run back-to-back workshops with different groups of students with diverse needs. We only had a few minutes in between the sessions to reorganize the space based on the needs of the new group. Having important points documented and available in the facilitation plan immensely helped our team to effectively reorganize the space in a short time
+  In many sessions, we had to run back-to-back workshops with different groups of students with diverse needs. We only had a few minutes in between the sessions to reorganize the space based on the needs of the new group. Having important points documented and available in the facilitation plan immensely helped our team to quickly reorganize the space in a short time and have it ready for the next group.
 ---
 ## Description
 
