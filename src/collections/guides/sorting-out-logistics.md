@@ -5,8 +5,27 @@ order: 4
 category: planning
 description: "For effective co-design workshops with kids, thorough logistics
   planning is crucial. "
-overviewSection: "For effective co-design workshops with kids, thorough logistics
-  planning is crucial. "
+overviewSection: Thorough planning of the logistics can impact how children are
+  engaged in the workshops. Keep sessions under 1.5 hours, especially for
+  younger children with multiple exceptionalities. Include breaks, body/music
+  breaks, and sensory breaks to maintain focus. Mindfully use technology, test
+  it in advance, and control volume. Address dietary restrictions, offer
+  nutritious snacks, and provide sanitary items. Communicate with parents about
+  transportation and create an access guide for venue familiarity. Wrap up
+  sessions by expressing gratitude, like giving stickers as a thank you.
+exampleSection: >-
+  Various groups of children with diverse needs have used
+  [Weavly](https://weavly.org/) in different workshops, each having unique
+  experiences.
+
+
+  For older children using assistive technologies like scanners, on-screen communication systems (e.g., Grid 3), or keyboards, selecting an item on the interface was not as simple as clicking; it involved several steps. Headtracker, eye gaze, and switch users needed constant physical movements and high mental focus to interact with the Weavly interface. Thus, we made sure to give them breaks every 10-15 minutes to rest their bodies and help them sustain engagement.
+
+
+  For students with social and behavioral needs, once we noticed signs of distraction, disengagement, boredom, or conflicts, we offered various forms of body breaks. For example, in one class, we would play a common YouTube video for [body breaks](https://youtu.be/8u7A-BR6R70?si=OzlkrLbpZHaEOl8X), while in another, we would create an obstacle course with masking tape. This helped release negative energy, making them more focused and energized for the rest of the session. Although we had scheduled breaks in our facilitation plans, our team was always observant of the room's energy and in communication with teachers to call for a break when needed.
+
+
+  Despite post-pandemic settings, COVID-19 protocols persisted in our workshops, especially due to shared equipment like iPads and physical toys. This ensured a safer interaction environment for both the facilitation team and students.
 supportiveMaterials:
   - label: Example of an access guide
     type: link
