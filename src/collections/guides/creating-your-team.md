@@ -18,10 +18,13 @@ exampleSection: >-
   "Weavly co-design team")
 
 
-  The [Weavly](https://weavly.org/) project extended over several years, involving diverse teams in each phase. Despite the different phases, our team arrangement remained consistent. We consistently included teachers and caregivers, crucial for supporting facilitators in various aspects—offering examples, clarifications, aiding students in self-regulation, and supporting them to complete activities.
+  The [Weavly](https://weavly.org/) project spanned over several years, involving diverse teams in each phase. Despite the different phases, our team arrangement remained consistent. We consistently included teachers and caregivers, crucial for supporting facilitators in various aspects—offering examples, clarifications, aiding students in self-regulation, and supporting them to complete activities.
 
 
-  Typically, our team included two or three members, a main facilitator and a support facilitator. The main facilitator provided instructions, and everyone engaged with students to assist them in completing activities. We usually captured the session's progress with a few photos and ensured to photograph all the work created in the classroom at the end.
+  Typically, our team included two or three members, a main facilitator and a support facilitator with a group of 3-5 children. With larger groups, we usually included more facilitators to ensure all children can have one on one time with our team. The main facilitator provided instructions, and everyone engaged with students to assist them in completing activities. We usually captured the session's progress with a few photos and ensured to photograph all the work created in the classroom at the end.
+
+
+  Sometimes when we worked with a student who was relying on the use of assistive devices such as switches or joy stick, we tried to only have one participant at a time, the main facilitator, the care giver and the teacher to offer one on one attention to the student throughout the session.
 
 
   To improve coordination, we found creating a facilitation plan before each session helpful. This plan was shared with teachers beforehand for additional feedback and to ensure everyone is aware of the plan and proposed activities. The facilitation plan functioned as a flexible roadmap. It helped us stay on track with our goals during the session, but we didn't have to follow it exactly.
