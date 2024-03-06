@@ -5,8 +5,16 @@ order: 6
 category: planning
 description: Safeguarding the privacy of children with disabilities is a
   fundamental step in the collaboration process.
-overviewSection: Safeguarding the privacy of children with disabilities is a
-  fundamental step in the collaboration process.
+overviewSection: In collaborations involving children with disabilities,
+  prioritizing privacy is vital. Clearly communicate project goals, engagement
+  processes, and expectations. Provide transparent information on privacy
+  protection through consent and assent forms. Limit data collection to
+  essentials and ensure secure data management. Respect and regularly renew
+  consent and assent. Establish a distress protocol, especially for non-verbal
+  children, in coordination with parents and teachers. Organizations working
+  with children should develop a child safeguarding policy outlining best
+  practices and privacy protection. Adhere to local safeguarding procedures in
+  familiar settings.
 supportiveMaterials:
   - label: A detailed resource about how to frame consent/assent strategy
     type: link
