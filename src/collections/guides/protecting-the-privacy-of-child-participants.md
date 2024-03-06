@@ -10,13 +10,13 @@ overviewSection: In collaborations involving children with disabilities,
   processes, and expectations. Provide transparent information on privacy
   protection through consent and assent forms. Limit data collection to
   essentials and ensure secure data management. Respect and regularly renew
-  consent and assent. Establish a distress protocol, especially for non-verbal
-  children, in coordination with parents and teachers. Organizations working
-  with children should develop a child safeguarding policy outlining best
-  practices and privacy protection. Adhere to local safeguarding procedures in
-  familiar settings.
+  consent and assent in both formal and informal ways. Establish a distress
+  protocol, especially for non-verbal children, in coordination with parents and
+  teachers. Adhere to local safeguarding procedures in familiar settings. If
+  your organization is often working with children, develop a child safeguarding
+  policy outlining best practices and privacy protection for your team.
 supportiveMaterials:
-  - label: A detailed resource about how to frame consent/assent strategy
+  - label: How to frame consent/assent strategy
     type: link
     link: https://www.uoguelph.ca/research/support-document/what-age-which-participants-can-consent-take-part-research
 ---
