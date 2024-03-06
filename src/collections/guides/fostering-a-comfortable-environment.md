@@ -14,23 +14,20 @@ overviewSection: Establishing trust is key for the involvement of children with
   welcome materials, learning daily routines, and being present with the
   children.
 exampleSection: >-
-  From the start of the [Weavly](https://weavly.org/) project, we partnered with
-  a school specializing in children with special needs and multiple
-  exceptionalities. After initial meetings with teachers to discuss project
-  goals and understand their community, students' diversity, and unique needs,
-  we mutually decided that our team would assist in the Arts room before formal
-  engagement. 
+  
+
+  ![A collection of sticky notes with notes written on them](/assets/uploads/teachers-workshop.jpg "Notes from an exploration session with the partnering school teachers")
 
 
-  A small team of our designers/researchers spent several weeks in the art room, aiding teachers with various activities. Our continuous presence not only not only helped us to learn more about each individual student, their preferences, and the dynamics in the school, but it also helped the students to become more familiar with us and recognize our faces and, in some cases, expect us to be there in the art room along with their teachers.
+  From the start of the [Weavly](https://weavly.org/) project, we partnered with a school specializing in children with special needs and multiple exceptionalities. After initial meetings with teachers to discuss project goals and understand their community, students' diversity, and unique needs, we mutually decided that our team would assist in the Arts room before formal engagement. 
 
 
-  ![A collection of sticky notes with notes from teachers](/assets/uploads/teachers-workshop.jpg "Notes from an exploration session with the partnering school teachers")
+  A small team of our designers/researchers spent several weeks in the art room, aiding teachers with various activities. Our continuous presence not only helped us to learn more about each individual student, their preferences, and the dynamics in the school, but it also helped the students to become more familiar with us and recognize our faces and, in some cases, expect us to be there in the art room along with their teachers.
 supportiveMaterials:
-  - label: Video created for children to explain the role of a researcher
+  - label: A video created for children to explain the role of a researcher
     type: link
     link: https://www.ucl.ac.uk/ioe/departments-and-centres/departments/culture-communication-and-media/what-researcher-video-children
-  - label: More information about social stories and how to use them
+  - label: A resource offering more information about social stories
     type: link
     link: https://therapyworks.com/blog/language-development/home-tips/using-social-stories-improve-childs-development/
 ---
