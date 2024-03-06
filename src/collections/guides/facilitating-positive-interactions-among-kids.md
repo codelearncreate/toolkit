@@ -9,9 +9,9 @@ description: Planning a co-design session with children with disabilities
 overviewSection: In co-design sessions with children with disabilities, it's
   crucial to consider factors like days of the week, time of day, transitions,
   and other activities around the session. Understanding each child's behavior,
-  consulting with teachers and parents about their daily routines, enables more
-  thoughtful planning of group activities. This consideration positively impacts
-  the dynamics between the children, minimizing the chances of tensions.
+  and consulting with teachers and parents about their daily routines, enables
+  more thoughtful planning of group activities. This consideration positively
+  impacts the dynamics between the children, minimizing the chances of tensions.
 exampleSection: >-
   ![Working with a student on Weavly](/assets/uploads/20220407_101251.jpg
   "Working with a student on Weavly")
