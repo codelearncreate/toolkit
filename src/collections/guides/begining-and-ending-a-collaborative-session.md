@@ -14,24 +14,24 @@ overviewSection: A structured routine, especially through circle times at the
   plans are shared, feedback is gathered visually, and participants are
   celebrated for their positive contributions, fostering a sense of pride.
 exampleSection: >-
-  ![Visual schedule with six steps](/assets/uploads/visual-schedule_session1.png
-  "Visual schedule for the classroom")
+  ![Visual schedule with four steps and a yes and no
+  card](/assets/uploads/img_20191106_142156.jpg "Visual schedule for the
+  classroom with Yes/No feedback card")
 
 
-  In every stage of the multi-year [Weavly](https://weavly.org/) project, regardless of the group or specific activities, we consistently initiated and concluded our work with a circle time. Setting up a visual timer and a visual agenda for the planned activities was very helpful. Depending on the activities for each session, we created a different visual schedule and velcroed it onto a board visible to all students. Then, during the circle time, we explained each step, took the visual card of that step, and showed it to each individual student to get them to confirm that step either through tapping the image, nodding, or giving their feedback verbally. As we progressed through a session, we removed the steps from the board and also updated the visual timer. Here is an image of a visual schedule we had created for one of our sessions, including six steps:
+  In every stage of the multi-year [Weavly](https://weavly.org/) project, regardless of the group or specific activities, we consistently initiated and concluded our work with a circle time. Setting up a visual timer and a visual agenda for the planned activities was very helpful. Depending on the activities for each session, we created a different visual schedule and velcroed it onto a board visible to all students. Then, during the circle time, we explained each step, took the visual card of that step, and showed it to each individual student to get them to confirm that step either through tapping the image, nodding, or giving their feedback verbally. As we progressed through a session, we removed the steps from the board and also updated the visual timer. Here is an image of a visual schedule we had created for one of our sessions, including four steps:
 
 
-  1. You are seated in the art classroom
+  1. We are doing the circle time right now.
 
-  2. We are doing the circle time right now.
+  2. Then, you will watch something on the TV.
 
-  3. We will give some art and craft materials and tools
+  3. Then, you will do some art activities.
 
-  4. You will be using a slide projector machine
+  4. You will go to your next class after this activity is done. 
 
-  5. You will create some shapes and art
 
-  6. You will be done with the art class
+  There is also a Yes/No feedback card on this board that we used with some students to gather their feedback about different questions. 
 
 
   You can find visual illustrations of some of the commonly used activities, such as Circle Time, Goodbye Circle, Work at table time, Game time, iPad, Watch video, Read book on the web, to create a visual schedule for any session. In some cases, it was easier for us to take photographs of actual objects and places to suit the needs of the project, such as images for Washroom, Sensory toy bin, Rest area.
