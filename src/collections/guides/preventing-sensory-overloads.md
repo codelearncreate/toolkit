@@ -21,6 +21,9 @@ exampleSection: >-
   We collaborated with various groups of children throughout the Weavly project, each with unique needs and sensitivities. In many hands-on design activities, we provided students with diverse craft materials to fuel their imaginations and bring their ideas to life. However, we recognized that this approach might not suit every child, as presenting a large collection of items with different sensory attributes could trigger overload. Therefore, we consistently consulted with teachers to determine the most effective format for each group.
 
 
+  ![Comparing two screenshots of the Weavly coding environment, one with all action blocks and the other simplified option enabled and having only the move forward action block visible. ](/assets/uploads/simplification.jpg "Weavly's simplification option enables teachers to hide the action blocks and only leave ones visible that are included in their lesson plans. ")
+
+
   Even within the digital space of Weavly, we observed that the interface could be overwhelming. One option we incorporated, based on teacher recommendations, is "Simplification." This feature allows teachers to hide programming action blocks, simplifying the interface and gradually introducing more options as needed.
 
 
