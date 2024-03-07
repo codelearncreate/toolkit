@@ -12,6 +12,22 @@ overviewSection: Collaborative sessions with children with disabilities require
   spaces, introduce items gradually to avoid over-stimulation, and provide
   sensory tools for regulation. Test and adapt audio, video, and lighting to
   prevent sensory overloads.
+exampleSection: >-
+  We collaborated with various groups of children throughout the Weavly project,
+  each with unique needs and sensitivities. In many hands-on design activities,
+  we provided students with diverse craft materials to fuel their imaginations
+  and bring their ideas to life. However, we recognized that this approach might
+  not suit every child, as presenting a large collection of items with different
+  sensory attributes could trigger overload. Therefore, we consistently
+  consulted with teachers to determine the most effective format for each group.
+
+
+  Even within the digital space of Weavly, we observed that the interface could be overwhelming. One option we incorporated, based on teacher recommendations, is "Simplification." This feature allows teachers to hide programming action blocks, simplifying the interface and gradually introducing more options as needed.
+
+
+
+
+  When using moving objects like robots or other toys in the classroom, we also observed sensitivities. To address this, we minimized the number of robots present or created simplified lesson plans to control the robot's movements, avoiding any fast or uncontrolled actions.
 ---
 ## Description
 
