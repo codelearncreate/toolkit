@@ -25,9 +25,10 @@ exampleSection: >-
   Even within the digital space of Weavly, we observed that the interface could be overwhelming. One option we incorporated, based on teacher recommendations, is "Simplification." This feature allows teachers to hide programming action blocks, simplifying the interface and gradually introducing more options as needed.
 
 
+  ![Facilitators are working with students in separate stations to work with robots](/assets/uploads/robot-stations.jpg "Providing separate working stations to give students a chance to focus on one robot at a time")
 
 
-  When using moving objects like robots or other toys in the classroom, we also observed sensitivities. To address this, we minimized the number of robots present or created simplified lesson plans to control the robot's movements, avoiding any fast or uncontrolled actions.
+  When using moving objects like robots or other toys in the classroom, we also observed sensitivities. To address this, we minimized the number of robots present, offered separate working stations, or created simplified lesson plans to control the robot's movements, avoiding any fast or uncontrolled actions.
 ---
 ## Description
 
