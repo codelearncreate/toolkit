@@ -12,6 +12,28 @@ overviewSection: In collaborative workshops with children with disabilities,
   by asking caregivers to step back, minimizing physical support, and
   encouraging objective communication. Diverse and customized collaboration
   tools can support individual needs and foster independence.
+exampleSection: >-
+  ![Using a tie to wrap a brush around the student's wrist for further
+  support](/assets/uploads/img_20191106_141904.jpg "Using a tie to wrap a brush
+  around the student's wrist for further support.")
+
+
+  Depending on the types of activities at different stages of Weavly, our team applied various methods to support each student’s independent participation. During exploratory and creative phases, as we experimented with different mediums to understand child-digital space interaction, we customized our tools—for example, adding wristbands to help students hold the brush or offering printed options with visual cues in the environment. 
+
+
+  The caregivers were helpful throughout all these sessions; however, in some areas, we had to ask them to provide minimal support. For instance, in an activity where we needed students to move their hand from point A to point B on the screen, some students who needed extra support had caregivers directly hold their hands and move them to point B, hindering any chance for trial and error. We had to repeat those activities and ask the caregivers to only ensure the hand was stable and not direct any movements. 
+
+
+  ![A printed image of a washing machine and hats and mittens. ](/assets/uploads/identify-the-robot_hueb5fd9d4ef6a330e9b11e5c5e2975564_254494_1000x0_resize_box_2.png "Offering students two options at a time to choose from rather than asking open ended questions was more accessible for many students. ")
+
+
+  We encountered a similar challenge when interpreting facial and body expressions of students who couldn't verbally communicate their feedback. Sometimes, caregivers immediately chose an option on their behalf. Giving those students more time and being patient until they chose their option helped. However, we had to be observant, recognizing when the students were disengaged, and insisting they make a choice sometimes led to frustration. It was a delicate balance that required constant collaboration with the student, teacher, and caregiver to find the best approach. 
+
+
+  ![An ipad displaying the Weavly coding environment with the Safari background](/assets/uploads/20220407_101842.jpg "The top broswer area is locked on the iPad screen to minimize accidental navigation. ")
+
+
+  As the project progressed and activities shifted to on-screen interactions, we implemented measures like locking certain areas on their iPad devices to prevent accidental navigation. Providing time for play with physical directional cubes and other toys contributed to their confidence and interaction with the interface.
 ---
 ## Description
 
