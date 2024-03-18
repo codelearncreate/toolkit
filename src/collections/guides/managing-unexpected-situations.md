@@ -14,6 +14,19 @@ overviewSection: Collaborative activities with children can lead to unexpected
   if tensions arise and ensure safety in cases of aggressive behavior. Work with
   caregivers and educators to develop strategies for future sessions and seek
   mentorship for support in challenging situations.
+exampleSection: >-
+  There have been several occasions during our engagement with children where we
+  had to devise strategies to manage unexpected behaviors. For example, in one
+  instance, a participant exhibited physical aggression towards a facilitator
+  and attempted to hit them. The facilitator promptly alerted the team, and the
+  teacher recommended that the facilitator leave the room, allowing others to
+  continue with the activities. 
+
+
+  Additionally, we encountered situations where a child had a tantrum during a session. In such cases, we sought support from teachers and caregivers. They often relocated the child to a calming space, providing calming toys and fidgets. Once the child calmed down, they returned to the session. If necessary, alternative activities were provided outside the session. 
+
+
+  We have also encountered situations where the child has been overstimulated and engaging in destructive behavior such as hitting furniture, throwing toys, and other items at participants and the facilitation team. In such cases, the safety of all participants and the team is the highest priority. Facilitators worked with teachers and center supervisors to ensure no one is hurt and then they have tried to calm the child down.
 ---
 ## Description
 
