@@ -12,12 +12,18 @@ overviewSection: To support children's self-regulation during collaborative
   distractions, and provide a consistent set of sensory toys to promote
   familiarity and comfort.
 exampleSection: >-
-  ![Hands of an adult and a child working through different items in a sensory
-  bin](/assets/uploads/sensory-bin.png "An adult and a child are exploring
-  different items in a sensory bin")
+  ![hand holding a stuffed animal toy in fron of the
+  screen](/assets/uploads/stuffed-animal.png "Facilitator using a toy squirrel
+  in front of the Weavly screen")
 
 
-  ![hand holding a stuffed animal toy in fron of the screen](/assets/uploads/stuffed-animal.png "Facilitator using a toy squirrel in front of the Weavly screen")
+  Although the [Weavly](https://weavly.org/) project focused on developing a digital coding environment, in most of our sessions we included various sensory items, such as stuffed animal toys as the characters of our coding challenges and stories, large building blocks for analog block-based programming, or other printed images, and sensory toys. These items proved helpful in our communication with children, helping them better understand the tasks and be more engaged. As a result, they were able to better self-regulate during the activity. Offering access to preferred toys at the session's end helped some students maintain focus throughout the session. 
+
+
+  ![Hands of an adult and a child working through different items in a sensory bin](/assets/uploads/sensory-bin.png "An adult and a child are exploring different items in a sensory bin")
+
+
+  However, we had to be mindful of the sensory items to ensure they don't negatively impact participants' engagement. For example, once, when using a stuffed animal snake, it frightened one of our participants and resulted in the participant isolating themselves from the session. Another time, presenting children with a box of sensory items with various attributes like different colors, textures, sizes, smells, and sounds led to overstimulation of senses for some participants, and we had to remove the bin to help kids concentrate on the main activities.
 ---
 ## Description
 
