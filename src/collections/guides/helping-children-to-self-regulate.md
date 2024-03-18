@@ -11,9 +11,13 @@ overviewSection: To support children's self-regulation during collaborative
   frustration. Incorporate sensory activities into sessions, but be mindful of
   distractions, and provide a consistent set of sensory toys to promote
   familiarity and comfort.
-exampleSection: '![Hands of an adult and a child working through different items
-  in a sensory bin](/assets/uploads/sensory-bin.png "An adult and a child are
-  exploring different items in a sensory bin")'
+exampleSection: >-
+  ![Hands of an adult and a child working through different items in a sensory
+  bin](/assets/uploads/sensory-bin.png "An adult and a child are exploring
+  different items in a sensory bin")
+
+
+  ![hand holding a stuffed animal toy in fron of the screen](/assets/uploads/stuffed-animal.png "Facilitator using a toy squirrel in front of the Weavly screen")
 ---
 ## Description
 
