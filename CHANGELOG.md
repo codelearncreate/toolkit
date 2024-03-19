@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/codelearncreate/co-design/compare/v1.1.0...v1.2.0) (2024-03-19)
+
+
+### Features
+
+* navigation between sections (resolves [#78](https://github.com/codelearncreate/co-design/issues/78)) ([#94](https://github.com/codelearncreate/co-design/issues/94)) ([06317a3](https://github.com/codelearncreate/co-design/commit/06317a3fdbcc990482c4566a99c58a66228897ea))
+
 ## [1.1.0](https://github.com/codelearncreate/co-design/compare/v1.0.1...v1.1.0) (2024-03-04)
 
 
