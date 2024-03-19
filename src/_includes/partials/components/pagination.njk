@@ -3,12 +3,25 @@
         
         <nav class="pagination" aria-label="posts pagination">
             <ul role="list">
-            {%- if previous %}
-                <li><a href="{{ previous.url }}"><span aria-hidden="true">&larr;</span><span class="visually-hidden">previous</span></a></li>
-            {%- endif %}
-            
-            {%- if next %}
-                <li><a href="{{ next.url }}"><span class="visually-hidden">next</span><span aria-hidden="true">&rarr;</span></a></li>
-            {%- endif %}
+            {% if not previous %}
+                {% if category == 'doing' %}
+                        {% set previous = collections['planning'][0] %}
+                {% elif category == 'reflecting' %}
+                        {% set previous = collections['doing'][0] %}
+                {% endif %}
+            {% endif %}
+            {% if previous %}
+            <li><a href="{{ previous.url }}"><span aria-hidden="true">&larr;</span><span class="visually-hidden">previous</span></a></li>
+            {% endif %}
+            {% if not next %}
+                {% if category == 'planning' %}
+                        {% set next = collections['doing'][0] %}
+                {% elif category == 'doing' %}
+                        {% set next = collections['reflecting'][0] %}
+                {% endif %}
+            {% endif %}
+            {% if next %}
+            <li><a href="{{ next.url }}"><span class="visually-hidden">next</span><span aria-hidden="true">&rarr;</span></a></li>
+            {% endif %}
             </ul>
         </nav>
