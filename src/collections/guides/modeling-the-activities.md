@@ -20,9 +20,13 @@ exampleSection: >-
   for the collaborative tasks")
 
 
+  In our [Weavly](https://weavly.org/) project collaborative sessions, we always began with an activity to set the context and engage the children with the day's plans. This involved various approaches like watching [videos](https://weavly.org/learn/resources/coding-videos-for-kids/), reading [books](https://weavly.org/learn/resources/picture-book-list/), or playing warm-up games together.
 
 
-  ![facilitator is modeling an activity for a student](/assets/uploads/beverley2_hud9a577a21815e8ebf73a5735cc535c12_3851505_1000x0_resize_box_2.png "Modeling an activity with familiar props to help students better understand the introduced tasks")
+  ![Adult is moving on a grid based on a student instructions](/assets/uploads/human-robot.jpg "Modeling digital activities in the real world to help students understand the tasks")
+
+
+  Before introducing coding concepts or challenges, we began with real-world items like toys or robots that the children were familiar with. Using these props as models, we demonstrated the activity they would later replicate in the digital space. This approach bridged the gap between the physical and digital environments, making it easier for them to follow instructions. For instance, we might lay out a grid on the floor and ask the students to navigate from point A to B using directional cards, mirroring how they would later navigate their on-screen character in the [Weavly coding environment](https://create.weavly.org).
 ---
 ## Description
 
