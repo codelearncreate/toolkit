@@ -11,10 +11,14 @@ overviewSection: Modeling activities is an effective way to help children grasp
   down complex steps into manageable tasks. Offer multiple examples for
   inspiration, encourage questions, and set realistic goals. Reusing
   documentation from previous sessions can aid in learning and development.
-exampleSection: '![Woman reading a book for a group of children on mobility
-  devices and projecting the page on the screen.
-  ](/assets/uploads/susie-reading.jpg "Reading picture books before the start of
-  an activity can help set the context for the collaborative tasks.")'
+exampleSection: >-
+  ![Woman reading a book for a group of children on mobility devices and
+  projecting the page on the screen. ](/assets/uploads/susie-reading.jpg
+  "Reading picture books before the start of an activity to help set the context
+  for the collaborative tasks")
+
+
+  ![facilitator is modeling an activity for a student](/assets/uploads/beverley2_hud9a577a21815e8ebf73a5735cc535c12_3851505_1000x0_resize_box_2.png "Modeling an activity with familiar props to help students better understand the introduced tasks")
 ---
 ## Description
 
