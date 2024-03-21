@@ -6,11 +6,27 @@ category: doing
 description: Modeling an activity is a powerful way to ensure children fully
   understand the collaborative tasks, the expectations and objectives of the
   activity, and can actively engage in the process.
+metaImage: /assets/uploads/beverley2_hud9a577a21815e8ebf73a5735cc535c12_3851505_1000x0_resize_box_2.png
+metaImageAlt: facilitator is modeling an activity for a student
 overviewSection: Modeling activities is an effective way to help children grasp
   collaborative tasks. Simplify instructions, utilize visual aids, and break
   down complex steps into manageable tasks. Offer multiple examples for
   inspiration, encourage questions, and set realistic goals. Reusing
   documentation from previous sessions can aid in learning and development.
+exampleSection: >-
+  ![Woman reading a book for a group of children on mobility devices and
+  projecting the page on the screen. ](/assets/uploads/susie-reading.jpg
+  "Reading picture books before the start of an activity to help set the context
+  for the collaborative tasks")
+
+
+  In our [Weavly](https://weavly.org/) project collaborative sessions, we always began with an activity to set the context and engage the children with the day's plans. This involved various approaches like watching [videos](https://weavly.org/learn/resources/coding-videos-for-kids/), reading [books](https://weavly.org/learn/resources/picture-book-list/), or playing warm-up games together.
+
+
+  ![Adult is moving on a grid based on a student instructions](/assets/uploads/human-robot.jpg "Modeling digital activities in the real world to help students understand the tasks")
+
+
+  Before introducing coding concepts or challenges, we began with real-world items like toys or robots that the children were familiar with. Using these props as models, we demonstrated the activity they would later replicate in the digital space. This approach bridged the gap between the physical and digital environments, making it easier for them to follow instructions. For instance, we might lay out a grid on the floor and ask the students to navigate from point A to B using directional cards, mirroring how they would later navigate their on-screen character in the [Weavly coding environment](https://create.weavly.org).
 ---
 ## Description
 
