@@ -6,6 +6,8 @@ category: doing
 description: Modeling an activity is a powerful way to ensure children fully
   understand the collaborative tasks, the expectations and objectives of the
   activity, and can actively engage in the process.
+metaImage: /assets/uploads/beverley2_hud9a577a21815e8ebf73a5735cc535c12_3851505_1000x0_resize_box_2.png
+metaImageAlt: facilitator is modeling an activity for a student
 overviewSection: Modeling activities is an effective way to help children grasp
   collaborative tasks. Simplify instructions, utilize visual aids, and break
   down complex steps into manageable tasks. Offer multiple examples for
@@ -16,6 +18,8 @@ exampleSection: >-
   projecting the page on the screen. ](/assets/uploads/susie-reading.jpg
   "Reading picture books before the start of an activity to help set the context
   for the collaborative tasks")
+
+
 
 
   ![facilitator is modeling an activity for a student](/assets/uploads/beverley2_hud9a577a21815e8ebf73a5735cc535c12_3851505_1000x0_resize_box_2.png "Modeling an activity with familiar props to help students better understand the introduced tasks")
