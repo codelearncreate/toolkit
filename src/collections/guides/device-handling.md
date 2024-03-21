@@ -10,6 +10,15 @@ overviewSection: Proper device handling during collaborative activities is
   guidelines, demonstrate correct handling, and use child-friendly devices when
   possible. Consider protective cases for fragile devices and have facilitators
   nearby to offer support and intervene if needed.
+exampleSection: >-
+  ![This is a screenshot of a slide that includes three images. The first two
+  images show illuastrations for taking turns and the third image shows two kids
+  playing with dash and dot robots.
+  ](/assets/uploads/screenshot-2024-03-21-at-12.12.24-pm.png "A robot social
+  story helped children to be more careful when using robots. ")
+
+
+  [Bridges Canada](https://www.bridges-canada.com/), a partner in the [Weavly](https://weavly.org/) project, developed a straightforward social story on handling robots. Before using robots in any session, we would review a few slides to emphasize that robots are not toys but fragile items requiring careful handling. Children were reminded to wait for their turn to use them. The image above illustrates one of the slides from this deck.
 ---
 ## Description
 
