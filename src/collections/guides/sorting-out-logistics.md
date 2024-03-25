@@ -5,6 +5,8 @@ order: 4
 category: planning
 description: "For effective co-design workshops with kids, thorough logistics
   planning is crucial. "
+metaImage: /assets/uploads/untitled-2.jpg
+metaImageAlt: Facilitator is preparing the space for a co-design activity in a gym.
 overviewSection: Thorough planning of the logistics can impact how children are
   engaged in a workshop. Keep sessions under 1.5 hours, especially for younger
   children with multiple exceptionalities. Include breaks, body/music breaks,
@@ -57,7 +59,7 @@ To ensure meaningful and productive co-design workshops with kids, careful plann
 
 **Dietary restrictions and food sensitivities:** if you are offering food at your events, check with teachers and parents about any dietary restrictions, allergies or food sensitivities to ensure the safety and well-being of all children.
 
-**Plan ahead:** offer 'snacks' or break time 'treats' that are most appropriate for the individual children who are taking part. For example, for children who do not eat orally or who might not enjoy eating.
+**Plan ahead:** offer 'snacks' or break time 'treats' that are most appropriate for the individual children who are taking part, including children who do not eat orally or who might not enjoy eating.
 
 **Choose nutritious refreshments:** If providing refreshments, opt for snacks with low sugar content to help kids maintain focus throughout the workshop.
 
@@ -71,7 +73,7 @@ To ensure meaningful and productive co-design workshops with kids, careful plann
 
 **Communicate with Parents:** Prior to the session, communicate with parents to provide information on the best ways to get to the venue. Address any transportation concerns they may have. This is particularly important if their children use mobility devices.
 
-**Access Guide:** If possible, prepare an access guide for the venue and share it with parents in advance. This guide helps familiarize parents and children with the space, making them feel more comfortable in the new environment. An access guide may include information and photos of parking options (and applicable fees), ramp access for wheelchair users, and directions to get to your workshop location and information, washrooms, kitchens, and water fountains in the venue. Please use this link to view an access guide example: Access guide
+**Access Guide:** If possible, prepare an access guide for the venue and share it with parents in advance. This guide helps familiarize parents and children with the space, making them feel more comfortable in the new environment. An access guide may include information and photos of parking options (and applicable fees), ramp access for wheelchair users, and directions to get to your workshop location, washrooms, kitchens, and water fountains in the venue. Check out the supportive material section for an example of an "Access Guide".
 
 ### Wrap up
 
