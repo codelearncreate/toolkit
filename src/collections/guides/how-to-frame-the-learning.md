@@ -14,6 +14,19 @@ overviewSection: To synthesize collaborative sessions with children with
   with children through tangible mediums. Treating children as creative partners
   fosters ongoing collaboration and empowers them to influence project
   evolution.
+exampleSection: >-
+  ![Facilitator showing new items on the Weavly coding environment to a
+  child](/assets/uploads/20220331_102350.jpg "Sharing back new updates on the
+  Weavly coding environment with kids")
+
+
+  Throughout the [Weavly](https://weavly.org/) project, at times we had the opportunity to collaborate with the same group across various phases of design and development. This allowed us to integrate some of the features and functionalities they suggested and then circle back to them. Our aim was to first illustrate how their input had impacted the project, ensure alignment with their initial ideas, and then further develop and expand upon their contributions.
+
+
+  ![Drawing of a child with notes written by a facilitator. ](/assets/uploads/img_1475.jpg "Drawing of a child with notes written by a facilitator. ")
+
+
+  Many of our sessions involved generative activities. Therefore, following a session and during our debriefing sessions, we would review all the artifacts created. We sought to augment these artifacts with additional insights, such as comments or conversations with the children, to provide context to their creations. Subsequently, we identified areas for improvement in Weavly based on their feedback. At times, the adjustments we made were not solely based on their direct feedback but also on their body language. For instance, if we observed difficulties or challenges in accessing or utilizing a feature, or even if a feature was not utilized at all.
 ---
 ## Description
 
