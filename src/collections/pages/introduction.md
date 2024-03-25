@@ -24,7 +24,7 @@ introSection:
 
     Children with disabilities are greatly impacted by the design of products, services, and environments around us. Unfortunately, they are often left out of the research, design, and development processes, pushed to the sidelines while decisions are made on their behalf by adult designers, researchers, and domain experts who may not have lived/living experiences of disability. Even when their caregivers or parents are involved, the children themselves are rarely given a voice.
 
-    By directly engaging and co-creating with children with disabilities, we can gain invaluable insights into their needs and preferences. No more assuming what they like or need; instead, we'll work directly with them to co-create something they can use and enjoy. However, there are a host of challenges that impact on child participation and expression of ideas in a collaborative process; some structural, some interactional, some practical or physical or motivational. Many factors, including their physical abilities, environmental, psychological, and social context, can/may interfere with their participation.
+    By directly engaging and co-creating with children with disabilities, we can gain invaluable insights into their needs and preferences. No more assuming what they like or need; instead, we'll work directly with them to co-create something they can use and enjoy. However, there are a host of challenges that impact on child participation and expression of ideas in a collaborative process; some structural, some interactional, some practical or physical or motivational. 
 
 
     ### Goals
@@ -67,7 +67,7 @@ howToSection:
     ### Planning
 
 
-    In this section, we share some of our experiences, tools, and strategies that help us create an accessible environment where children feel safe and comfortable to share their ideas. 
+    In this section, we share some of our experiences, tools, and strategies that help us create an accessible environment where children feel safe and comfortable to express their ideas. 
 
 
     ### Doing
