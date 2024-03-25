@@ -6,6 +6,8 @@ category: planning
 description: Planning a co-design session with children with disabilities
   requires consideration of contextual, environmental, and social factors
   affecting their interactions.
+metaImage: /assets/uploads/untitled-1.jpg
+metaImageAlt: "A facilitator showing a video on a laptop to two kids. "
 overviewSection: In co-design sessions with children with disabilities, it's
   crucial to consider factors like days of the week, time of day, transitions,
   and other activities around the session. Understanding each child's behavior,
