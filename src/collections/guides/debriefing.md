@@ -6,6 +6,7 @@ category: reflecting
 description: "After each collaborative session, take the time to reflect on what
   worked well and what could be improved. "
 metaImage: /assets/uploads/img_2076.jpg
+metaImageAlt: Facilitator observing a child using Weavly coding environment on a computer.
 overviewSection: Reflect on each collaborative session to identify successes and
   areas for improvement. Discuss with other facilitators to understand
   individual needs better and enhance support. Evaluate workshop logistics and
