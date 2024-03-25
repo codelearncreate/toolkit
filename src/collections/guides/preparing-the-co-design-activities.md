@@ -5,6 +5,9 @@ order: 7
 category: planning
 description: Thoughtfully planned collaborative activities provide a starting
   point for exploration and innovation.
+metaImage: /assets/uploads/img_9020-1-.jpg
+metaImageAlt: "Kids sitting on the floor around a board and trying to design a
+  customized grid on this board with paint and other craft materials. "
 overviewSection: For successful co-design with children with disabilities, start
   with tangible elements like basic prototypes. Plan activities with a
   scaffolded approach, gradually building on their capabilities. Leave room for
@@ -14,12 +17,13 @@ overviewSection: For successful co-design with children with disabilities, start
   conduct dry runs for feedback. Be mindful of framing questions to gain deeper
   insights into the child's perspective and preferences.
 exampleSection: >-
-  
+  ![Projecting different elements on the screen with an old slide
+  projector](/assets/uploads/screenshot-2024-03-05-at-2.33.30-pm.png "Exploring
+  cause an effect by placing different physical items on a slide projector and
+  experincing their projection on the screen.")
 
-  ![Projecting different elements on the screen with an old slide projector](/assets/uploads/screenshot-2024-03-05-at-2.33.30-pm.png "Exploring cause an effect by placing different physical items on a slide projector and experincing their projection on the screen.")
 
-
-  The [Weavly](https://weavly.org/) project spanned several years, with varying activities in each phase. In the initial phases, when the coding environment hadn't yet developed, we used various tools to engage children in the digital space, including old slide projectors and interactions with PowerPoint slides on a smart board to understand the child-digital environment interaction.
+  The [Weavly](https://weavly.org/) project spanned several years, with varying activities in each phase. In the initial phases, when the coding environment hadn't yet developed, we used various tools to engage children in the digital space, including old slide projectors and interactions with PowerPoint slides on a smart board to understand the child-digital environment interaction and explore foundational concepts such as how they perceive cause an effect.
 
 
   ![Student using Weavly simple prototype to build a program to direct robots on the floor.](/assets/uploads/design-activity_hua7f35ba46080e3314a834735ed95f389_2828843_1000x0_resize_q75_box.jpg "Student using early prototypes of Weavly with basic functionality to control robots and draw shapes with them.")
