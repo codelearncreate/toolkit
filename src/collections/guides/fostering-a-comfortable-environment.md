@@ -5,6 +5,8 @@ order: 1
 category: planning
 description: Creating a comfortable environment is crucial to encourage active
   participation from children with disabilities.
+metaImage: /assets/uploads/thumb_9b59.jpg
+metaImageAlt: Several sticky notes with notes on dark blue background
 overviewSection: Establishing trust is key for the involvement of children with
   disabilities. This requires recognizing their interests, engaging in various
   activities, and adapting roles to their needs. Collaboration with parents and
@@ -14,9 +16,9 @@ overviewSection: Establishing trust is key for the involvement of children with
   welcome materials, learning daily routines, and being present with the
   children.
 exampleSection: >-
-  
-
-  ![A collection of sticky notes with notes written on them](/assets/uploads/teachers-workshop.jpg "Notes from an exploration session with the partnering school teachers")
+  ![A collection of sticky note papers with notes written on
+  them](/assets/uploads/teachers-workshop.jpg "Notes from an exploration
+  workshop with the partnering school teachers")
 
 
   From the start of the [Weavly](https://weavly.org/) project, we partnered with a school specializing in children with special needs and multiple exceptionalities. After initial meetings with teachers to discuss project goals and understand their community, students' diversity, and unique needs, we mutually decided that our team would assist in the Arts room before formal engagement. 
@@ -55,7 +57,7 @@ Some children prefer alternative modes of communication to speech, be it touch, 
 
 ### Sharing welcome videos or pictures
 
-Prepare a short video, or a series of picture cards that feature you and any other facilitators to introduce yourselves and share that you will be meeting them soon to work on a cool project. Sharing social stories with children ahead of time can also help them better prepare for the engagement. 
+Prepare a short video, or a series of picture cards that feature you and any other facilitators to introduce yourselves and share that you will be meeting them soon to work on a cool project. Sharing social stories with children ahead of time can also help them better prepare for the engagement. Check out the supportive material section for more details about creating and using social stories. 
 
 ### Getting to know daily routines
 
