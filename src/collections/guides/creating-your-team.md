@@ -6,6 +6,8 @@ category: planning
 description: Coordinating a co-design workshop with kids involves careful
   consideration of who should be present to create a comfortable and inclusive
   space.
+metaImage: /assets/uploads/20220324_095845-1-.jpg
+metaImageAlt: 3 facilitators are showing a movement
 overviewSection: In co-design workshops with children, having the right people
   in the room is crucial for success. This includes facilitators for engagement,
   a documentation team for insights, and parents or caregivers for support.
