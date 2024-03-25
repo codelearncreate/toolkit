@@ -5,6 +5,8 @@ order: 6
 category: planning
 description: Safeguarding the privacy of children with disabilities is a
   fundamental step in the collaboration process.
+metaImage: /assets/uploads/screenshot-2024-03-25-at-11.52.30-am.png
+metaImageAlt: Child drawing black circles on a blue screen.
 overviewSection: In collaborations involving children with disabilities,
   prioritizing privacy is vital. Clearly communicate project goals, engagement
   processes, and expectations. Provide transparent information on privacy
@@ -19,6 +21,15 @@ supportiveMaterials:
   - label: A detailed resource about how to frame consent/assent strategy
     type: link
     link: https://www.uoguelph.ca/research/support-document/what-age-which-participants-can-consent-take-part-research
+  - label: Minors Consent Form Template
+    type: link
+    link: https://co-design.inclusivedesign.ca/resources/minors-consent-form/
+  - label: Media Release Form Template
+    type: link
+    link: https://co-design.inclusivedesign.ca/resources/media-release-form/
+  - label: Child Safegaurding Policy Example
+    type: link
+    link: https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11566113/Child+Safeguarding+Policy
 ---
 ## Description
 
