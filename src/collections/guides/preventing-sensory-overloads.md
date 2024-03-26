@@ -6,6 +6,9 @@ category: doing
 description: Creating multi-modal and diverse channels for idea exploration and
   feedback exchange is vital in collaborative sessions with children with
   disabilities.
+metaImage: /assets/uploads/screenshot-2024-03-05-at-2.33.30-pm.png
+metaImageAlt: "Child and facilitator exploring different craft items against a
+  slide projector light. "
 overviewSection: Collaborative sessions with children with disabilities require
   diverse channels for exploration and feedback. Work closely with caregivers
   for a sensory-friendly environment. Organize the workspace, create relaxing
@@ -18,7 +21,7 @@ exampleSection: >-
   art and craft material to kids at once can be triggering for some children")
 
 
-  We collaborated with various groups of children throughout the Weavly project, each with unique needs and sensitivities. In many hands-on design activities, we provided students with diverse craft materials to fuel their imaginations and bring their ideas to life. However, we recognized that this approach might not suit every child, as presenting a large collection of items with different sensory attributes could trigger overload. Therefore, we consistently consulted with teachers to determine the most effective format for each group.
+  We collaborated with various groups of children throughout the [Weavly](https://weavly.org/) project, each with unique needs and sensitivities. In many hands-on design activities, we provided students with diverse craft materials to fuel their imaginations and bring their ideas to life. However, we recognized that this approach might not suit every child, as presenting a large collection of items with different sensory attributes could trigger overload. Therefore, we consistently consulted with teachers to determine the most effective format for each group.
 
 
   ![Comparing two screenshots of the Weavly coding environment, one with all action blocks and the other simplified option enabled and having only the move forward action block visible. ](/assets/uploads/simplification.jpg "Weavly's simplification option enables teachers to hide the action blocks and only leave ones visible that are included in their lesson plans. ")
