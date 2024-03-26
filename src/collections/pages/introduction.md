@@ -85,7 +85,7 @@ howToSection:
     Throughout this resource, we have used the [Weavly](https://weavly.org/) project as an example to explain how some of the recommendations have been put into practice. Weavly is an open-source and accessible coding environment, along with inclusive coding resources that have been co-designed and developed with children with disabilities, their educators, caregivers, and parents.
 connectSection:
   title: Connect
-  titleLink: mailto:idrc@ocadu.ca
+  titleLink: mailto:weavly@idrc.ocadu.ca
   content: Please email us or join our discussion list if you’d like to be part of
     this conversation.
 key: Introduction
