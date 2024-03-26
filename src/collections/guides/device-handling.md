@@ -5,6 +5,8 @@ order: 7
 category: doing
 description: "Device handling during a collaborative activity is crucial to
   ensure the safety of both the participants and the equipment being used. "
+metaImage: /assets/uploads/20220407_101842.jpg
+metaImageAlt: iPad device with a protective case.
 overviewSection: Proper device handling during collaborative activities is
   essential for participant safety and equipment protection. Provide clear
   guidelines, demonstrate correct handling, and use child-friendly devices when
@@ -26,9 +28,20 @@ Device handling during a collaborative activity is crucial to ensure the safety 
 
 ## Suggestions
 
-* Prepare a clear and straightforward guideline for handling the devices. Use simple language and visuals if necessary, especially for children who may have communication challenges.
-* Before distributing the devices to the participants, explain the guideline to them and demonstrate how to handle a device correctly. Show them the dos and don'ts to avoid accidental damage or mishandling to reinforce the guidelines.
-* Whenever possible, use devices specifically designed for children. Kid-friendly devices are more likely to withstand the wear and tear of a collaborative workshop.
-* If using fragile or sensitive devices, such as tablets or laptops, consider adding protective cases or covers to prevent damage in case of accidental drops. 
-* Using shock-absorbent materials on the surface area where the activities are taking place can minimize potential damages.
-* Have a facilitator or team member close by during the activity to provide additional support and supervision and remind participants about proper handling techniques and intervene if they notice any unsafe behaviors.
+### Creating and Demonstrating Guidelines
+
+Prepare a clear and straightforward guideline for handling the devices. Use simple language and visuals if necessary, especially for children who may have communication challenges.
+
+Before distributing the devices to the participants, explain the guideline to them and demonstrate how to handle a device correctly. Show them the dos and don'ts to avoid accidental damage or mishandling to reinforce the guidelines.
+
+### Using Protective Measures
+
+Whenever possible, use devices specifically designed for children. Kid-friendly devices are more likely to withstand the wear and tear of a collaborative workshop.
+
+If using fragile or sensitive devices, such as tablets or laptops, consider adding protective cases or covers to prevent damage in case of accidental drops. 
+
+Using shock-absorbent materials on the surface area where the activities are taking place can minimize potential damages.
+
+### Facilitator Support and Supervision
+
+Have a facilitator or team member close by during the activity to provide additional support and supervision and remind participants about proper handling techniques and intervene if they notice any unsafe behaviors.
