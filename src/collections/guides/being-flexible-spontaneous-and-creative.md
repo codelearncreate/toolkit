@@ -7,6 +7,8 @@ description: Flexibility and adaptability are essential traits for facilitators
   working with children with disabilities, as unexpected behaviors may require
   thoughtful and spontaneous responses to ensure a positive and meaningful
   collaborative experience for all participants.
+metaImage: /assets/uploads/design-activity-using-the-prototype_hua147f5f7751a23f9d805133cfcf6212e_2686676_1000x0_resize_q75_box.jpg
+metaImageAlt: "Three robots painting geometric shapes on the floor. "
 overviewSection: Being flexible, spontaneous, and creative is crucial for
   facilitating workshops with children with disabilities. Unexpected behaviors
   may arise, requiring adaptable responses to ensure a positive experience.
