@@ -5,6 +5,8 @@ order: 2
 category: doing
 description: In a collaborative setting, due to each child's unique needs,
   direct participation may present challenges.
+metaImage: /assets/uploads/screenshot-2024-03-26-at-9.29.58-am.png
+metaImageAlt: "Caregiver is helping a student to hold a brush and move it on a screen. "
 overviewSection: In collaborative workshops with children with disabilities,
   facilitators face challenges arising from unique needs, like difficulty
   holding a pen or verbalizing thoughts. Caregivers, though well-intentioned,
@@ -18,7 +20,7 @@ exampleSection: >-
   around the student's wrist for further support.")
 
 
-  Depending on the types of activities at different stages of Weavly, our team applied various methods to support each student’s independent participation. During exploratory and creative phases, as we experimented with different mediums to understand child-digital space interaction, we customized our tools—for example, adding wristbands to help students hold the brush or offering printed options with visual cues in the environment. 
+  Depending on the types of activities at different stages of [Weavly](https://weavly.org/), our team applied various methods to support each student’s independent participation. During exploratory and creative phases, as we experimented with different mediums to understand child-digital space interaction, we customized our tools to support their autonomy—for example, adding wristbands to help students hold the brush or offering printed options with visual cues in the environment. 
 
 
   The caregivers were helpful throughout all these sessions; however, in some areas, we had to ask them to provide minimal support. For instance, in an activity where we needed students to move their hand from point A to point B on the screen, some students who needed extra support had caregivers directly hold their hands and move them to point B, hindering any chance for trial and error. We had to repeat those activities and ask the caregivers to only ensure the hand was stable and not direct any movements. 
@@ -39,7 +41,7 @@ exampleSection: >-
 
 The primary goal of a collaborative workshop with children with disabilities is to provide them with ample opportunities to express their ideas and actively contribute to project development. However, due to each child's unique needs, direct participation may present challenges. Some participants may face difficulties holding a pen, drawing in a specific direction, moving without assistive devices, or sharing their ideas verbally.
 
-In such collaborative settings, caregivers — such as teachers, parents, or guardians — are often present, and their instinct to help may lead them to intervene when a child is struggling to participate. They may hold the child's hand, interpret facial expressions on their behalf, or even complete an activity on their behalf. As facilitators, it is essential to be mindful of these situations. 
+In such collaborative settings, caregivers — such as teachers, parents, or guardians — are often present, and their instinct to help may lead them to intervene when a child is struggling to participate. They may hold the child's hand, interpret facial expressions or even complete an activity on their behalf. As facilitators, it is essential to be mindful of these situations. 
 
 ## Suggestions
 
@@ -57,7 +59,4 @@ Encourage caregivers not to interpret the child's messages but to communicate ob
 
 ### Diverse Collaboration Tools
 
-Working with teachers, caregivers, or parents ahead of time helps understand specific access needs and modes of participation for each child. This knowledge enables the preparation of tools and methods that better support each child’s engagement. 
-
-* If a child needs support holding a pen, providing a bulky pen with a wristband can aid their participation in drawing activities.
-* For those who use symbol-based communication, having Yes/No cards and other feedback cards readily available allows for direct and efficient communication during discussions.
+Working with teachers, caregivers, or parents ahead of time helps understand specific access needs and modes of participation for each child. This knowledge enables the preparation of tools and methods that better support each child’s engagement. For example, if a child needs support holding a pen, providing a bulky pen with a wristband can aid their participation in drawing activities. For those who use symbol-based communication, having Yes/No cards and other feedback cards readily available allows for direct and efficient communication during discussions.
