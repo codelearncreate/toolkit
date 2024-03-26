@@ -22,15 +22,18 @@ Flexibility and adaptability are essential traits for facilitators working with 
 
 ### Create a Safe and Accepting Environment
 
-* Focus on your main goals or objectives instead of specific tasks. Creating session agendas that consider key design stages gives you more flexibility and can help you achieve your goals without being tied to particular tasks.
-* Nurture a safe and accepting environment for all participants to freely express themselves. Foster a culture of understanding and respect, where ideas are celebrated and differences are embraced. For example apply a Yes, and… approach, you can learn more about this strengths-based tactic here: [Link](https://www.thisisservicedesigndoing.com/methods/yes-and-warm-up)
+Focus on your main goals or objectives instead of specific tasks. Creating session agendas that consider key design stages gives you more flexibility and can help you achieve your goals without being tied to particular tasks.
+
+Nurture a safe and accepting environment for all participants to freely express themselves. Foster a culture of understanding and respect, where ideas are celebrated and differences are embraced. For example apply a Yes, and… approach, you can learn more about this strengths-based tactic here: [Link](https://www.thisisservicedesigndoing.com/methods/yes-and-warm-up)
 
 ### Be Observant of Room Dynamics
 
-* Stay attuned to the energy and interactions within the room. Observe how participants interact with one another and with facilitators. If you sense any tensions or frictions, be open to rearranging groups and facilitators to foster better group dynamics and engagement.
-* Be mindful of each child's level of participation. Some participants may be more reserved and prefer limited engagement, while others may require encouragement to share their ideas. Engage with all participants on an individual basis and encourage their contributions in a way that respects their comfort level.
+Stay attuned to the energy and interactions within the room. Observe how participants interact with one another and with facilitators. If you sense any tensions or frictions, be open to rearranging groups and facilitators to foster better group dynamics and engagement.
+
+Be mindful of each child's level of participation. Some participants may be more reserved and prefer limited engagement, while others may require encouragement to share their ideas. Engage with all participants on an individual basis and encourage their contributions in a way that respects their comfort level.
 
 ### Be Responsive to Participants' Needs
 
-* Remain receptive to the participants' needs and abilities. If you find that certain activities are not accessible or engaging for some children, be ready to modify the approach on the spot. Assign facilitators and educators to support individual participants in a way that accommodates their unique requirements.
-* Facilitators can keep fast doers engaged with extra challenges and offer optional activities, and provide support to slower participants. Maintaining a balanced pace and celebrating individual progress creates a more collaborative and supportive environment for all participants.
+Remain receptive to the participants' needs and abilities. If you find that certain activities are not accessible or engaging for some children, be ready to modify the approach on the spot. Assign facilitators and educators to support individual participants in a way that accommodates their unique requirements.
+
+Facilitators can keep fast doers engaged with extra challenges and offer optional activities, and provide support to slower participants. Maintaining a balanced pace and celebrating individual progress creates a more collaborative and supportive environment for all participants.
