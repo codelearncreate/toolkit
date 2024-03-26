@@ -6,6 +6,8 @@ category: doing
 description: "Creating a structured routine and explaining what participants can
   expect helps children with disabilities feel more at ease and builds a sense
   of predictability. "
+metaImage: /assets/uploads/screenshot-2024-03-26-at-9.17.19-am.png
+metaImageAlt: "A facilitator is introducing the workshop activities to a group of students. "
 overviewSection: A structured routine, especially through circle times at the
   start and end, provides predictability for children with disabilities in
   workshops. Facilitators introduce themselves, outline plans, and seek feedback
@@ -14,12 +16,19 @@ overviewSection: A structured routine, especially through circle times at the
   plans are shared, feedback is gathered visually, and participants are
   celebrated for their positive contributions, fostering a sense of pride.
 exampleSection: >-
-  ![Visual schedule with four steps and a yes and no
-  card](/assets/uploads/img_20191106_142156.jpg "Visual schedule for the
-  classroom with Yes/No feedback card")
+  In every stage of the multi-year [Weavly](https://weavly.org/) project,
+  regardless of the group or specific activities, we consistently initiated and
+  concluded our work with a circle time. Setting up a visual timer and a visual
+  agenda for the planned activities was very helpful. 
 
 
-  In every stage of the multi-year [Weavly](https://weavly.org/) project, regardless of the group or specific activities, we consistently initiated and concluded our work with a circle time. Setting up a visual timer and a visual agenda for the planned activities was very helpful. Depending on the activities for each session, we created a different visual schedule and velcroed it onto a board visible to all students. Then, during the circle time, we explained each step, took the visual card of that step, and showed it to each individual student to get them to confirm that step either through tapping the image, nodding, or giving their feedback verbally. As we progressed through a session, we removed the steps from the board and also updated the visual timer. Here is an image of a visual schedule we had created for one of our sessions, including four steps:
+  Depending on the activities for each session, we created a different visual schedule and velcroed it onto a board visible to all students. Then, during the circle time, we explained each step, took the visual card of that step, and showed it to each individual student to get them to confirm that step either through tapping the image, nodding, or giving their feedback verbally. As we progressed through a session, we removed the steps from the board and also updated the visual timer. 
+
+
+  ![Visual schedule with four steps and a yes and no card](/assets/uploads/img_20191106_142156.jpg "Visual schedule for the classroom with Yes/No feedback card")
+
+
+  Here is an image of a visual schedule we had created for one of our sessions, including four steps:
 
 
   1. We are doing the circle time right now.
@@ -34,10 +43,10 @@ exampleSection: >-
   There is also a Yes/No feedback card on this board that we used with some students to gather their feedback about different questions. 
 
 
-  You can find visual illustrations of some of the commonly used activities, such as Circle Time, Goodbye Circle, Work at table time, Game time, iPad, Watch video, Read book on the web, to create a visual schedule for any session. In some cases, it was easier for us to take photographs of actual objects and places to suit the needs of the project, such as images for Washroom, Sensory toy bin, Rest area.
+  You can find visual illustrations of some of the commonly used activities, such as Circle Time, Goodbye Circle, Work at table time, Game time, Watch video, Read book on the web, to create a visual schedule for any session. In some cases, it was easier for us to take photographs of actual objects and places to suit the needs of the project, such as images for Washroom, Sensory toy bin, Rest area.
 
 
-  The teachers have prepared a folder with large images of different areas in the school, such as the gym, lunchroom, library, main area, etc. At the ending circle time, we showed the students the image of the area they would be heading to after the workshop.
+  The teachers at our partnering school had prepared a folder with large images of different areas in the school, such as the gym, lunchroom, library, main area, etc. At the ending circle time, we showed the students the image of the area they would be heading to after the workshop.
 ---
 ## Description
 
