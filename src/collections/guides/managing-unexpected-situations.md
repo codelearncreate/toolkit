@@ -7,6 +7,7 @@ description: "Collaborative activities with children can lead to unexpected
   behaviors, so it's important to understand triggers and handle situations with
   support. "
 metaImage: /assets/uploads/img_3366_hu1323f3c59ee5a5edd578f60f32023c49_4909404_1000x0_resize_q75_box.jpg
+metaImageAlt: Splashed yellow, gree, and red paint on a blue background.
 overviewSection: Collaborative activities with children can lead to unexpected
   behaviors, so it's important to understand triggers and handle situations with
   support. Remember not to take on classroom management responsibilities.
