@@ -15,6 +15,19 @@ overviewSection: Being flexible, spontaneous, and creative is crucial for
   Focus on main goals, observe room dynamics, and provide varied challenges. Be
   receptive to participants' needs and modify activities accordingly, fostering
   a safe and accepting environment for all.
+exampleSection: >-
+  In many of our collaborative sessions for the [Weavly](https://weavly.org/)
+  project, we frequently encountered situations that required us to be flexible
+  and adapt our plans on the fly to accommodate the needs of students, teachers,
+  or the school. For instance, there were occasions when students had to leave
+  earlier for other school activities, prompting us to adjust our lesson plans
+  while still ensuring meaningful engagement and achieving our session goals.
+
+
+  ![Students on mobility devices using their laptops to create a program to move robots on the floor to draw geommetric shapes. etric ](/assets/uploads/design-activity-using-the-prototype_hubcbd8cb1fbfe2b60d025736e0186a09d_2552060_1000x0_resize_q75_box.jpg "Students on mobility devices gathered around a floor level activity, trying to ove robots with programs they have built in Weavly. ")
+
+
+  Moreover, when introducing new mediums and creative tools to children, there were instances that teachers and caregivers were not sure about how students would respond to such new experiences. As a result, we encountered some situations where the activity wasn't accessible to all students. For example, some students struggled with navigating iPads, while others found floor-level activities challenging due to mobility devices. In response, we made real-time adjustments such as streaming activities on a laptop for better visibility, repositioning monitors for easier access, or providing additional support tools like straps. Each of these moments provided valuable learning experiences, prompting us to continuously improve and make subsequent sessions more inclusive and accessible for all participants.
 ---
 ## Description
 
