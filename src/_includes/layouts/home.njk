@@ -47,14 +47,21 @@
   <div class="[ wrapper ]">
     <div class="[ contributors ]">
       {% for contributor in contributors.contributors %}
-        <a href="{{ contributor.link }}" rel="external">
-        {% if contributor.image %}
-        <img src="{{ contributor.image }}" width="150" height="150" alt="" />
-        {% else %}
-        <img src="https://source.boringavatars.com/ring/150/{{ contributor.name | replace(' ', '%20') }}?colors=516d95,d2a27a,882211,337777,f75322" width="150" height="150" alt="" />
-        {% endif %}
-        <span>{{ contributor.name }}</span>
-        </a>
+        <div class="[ contributor ]">
+          {% if contributor.link %}
+          <a href="{{ contributor.link }}" rel="external">
+            {{ contributor.name }}
+            {%- if contributor.organization %}<br />
+            <strong>{{ contributor.organization }}</strong>
+            {% endif %}
+          </a>
+          {% else %}
+          {{ contributor.name }}
+          {%- if contributor.organization %}<br />
+          <strong>{{ contributor.organization }}</strong>
+          {% endif %}
+          {% endif %}
+        </div>
       {% endfor %}
     </div>
   </div>

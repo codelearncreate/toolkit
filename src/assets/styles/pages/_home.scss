@@ -7,31 +7,23 @@
 }
 
 .home .contributors {
+  column-gap: var(--space-xl);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   margin-inline: auto;
-  row-gap: calc(5 * var(--space-md));
+  max-inline-size: 75ch;
+  row-gap: var(--space-md);
 
-  a {
-    display: block;
-    font-weight: bold;
-    text-align: center;
-
-    img {
-      border-radius: 50%;
-      display: block;
-      margin-inline: auto;
-    }
-
-    span {
-      display: block;
-      margin-block-start: var(--space-sm);
-    }
+  .contributor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
   }
 }
 
 @media (min-width: 960px) {
   .home .contributors {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }

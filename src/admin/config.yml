@@ -38,8 +38,7 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons:
-                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
                 editor_components: [image]
 
           - label: Ground Rules
@@ -50,8 +49,7 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons:
-                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
                 editor_components: [image]
 
           - label: How To
@@ -62,8 +60,7 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons:
-                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
                 editor_components: [image]
 
           - label: Contributors
@@ -74,8 +71,7 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons:
-                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
                 editor_components: [image]
 
           - label: Connect
@@ -87,8 +83,7 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons:
-                  [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
                 editor_components: [image]
 
       - label: Planning
@@ -214,5 +209,5 @@ collections:
             summary: "{{fields.name}}"
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Link, name: link, widget: string}
-              - {label: Photo, name: photo, widget: image, required: false}
+              - {label: Organization, name: organization, widget: string, required: false}
+              - {label: Link, name: link, widget: string, required: false}
