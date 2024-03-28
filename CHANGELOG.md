@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/codelearncreate/co-design/compare/v1.2.0...v1.3.0) (2024-03-28)
+
+
+### Features
+
+* update contributors fields and display (fix [#103](https://github.com/codelearncreate/co-design/issues/103)) ([#125](https://github.com/codelearncreate/co-design/issues/125)) ([077b220](https://github.com/codelearncreate/co-design/commit/077b220a305a2d74e57061b858cc9cb028e227e6))
+* update footer to match weavly.org ([#123](https://github.com/codelearncreate/co-design/issues/123)) ([d3e3bd1](https://github.com/codelearncreate/co-design/commit/d3e3bd19a4f685df6b2f6a457086b4ca4fd15756))
+
 ## [1.2.0](https://github.com/codelearncreate/co-design/compare/v1.1.0...v1.2.0) (2024-03-19)
 
 
