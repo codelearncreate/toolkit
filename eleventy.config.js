@@ -47,19 +47,25 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("planning", collection => {
         return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
             return item.data.category === "planning";
-        });
+        }).sort((a, b) => {
+            return a.data.order - b.data.order;
+		  });
     });
 
     eleventyConfig.addCollection("doing", collection => {
         return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
             return item.data.category === "doing";
-        });
+        }).sort((a, b) => {
+            return a.data.order - b.data.order;
+		  });
     });
 
     eleventyConfig.addCollection("reflecting", collection => {
         return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
             return item.data.category === "reflecting";
-        });
+        }).sort((a, b) => {
+            return a.data.order - b.data.order;
+		  });
     });
 
     // Plugins
