@@ -1,3 +1,43 @@
 {
-  "contributors": []
+  "contributors": [
+    {
+      "name": "Sepideh Shahi - Senior Inclusive Designer and Researcher",
+      "organization": "Inclusive Design Research Centre",
+      "link": "https://idrc.ocadu.ca/"
+    },
+    {
+      "name": "Rachel Y. Chen ",
+      "link": "https://dr.ntu.edu.sg/cris/rp/rp02146",
+      "organization": "Nanyang Technology University"
+    },
+    {
+      "name": "Seray Ibrahim",
+      "organization": "King's College London",
+      "link": "https://www.kcl.ac.uk/people/seray-ibrahim"
+    },
+    {
+      "name": "Minna Nygren ",
+      "link": "https://profiles.ucl.ac.uk/63592-minna-nygren",
+      "organization": "University College London"
+    },
+    {
+      "name": "Hien Quach - Special Education Teacher",
+      "organization": "Beverley School",
+      "link": "https://www.tdsb.on.ca/Find-your/Schools/schno/5313"
+    },
+    {
+      "name": "Kris Erickson",
+      "link": "https://www.linkedin.com/in/krisericksonto/?originalSubdomain=ca",
+      "organization": "Toronto Metropolitan University"
+    },
+    {
+      "name": "Cathleen Evans - Occuptaional Therapist",
+      "organization": ""
+    },
+    {
+      "name": "Riya Shah - Occuptaional Therapist",
+      "link": "https://www.linkedin.com/in/riya-shah-35b44217a/?originalSubdomain=ca",
+      "organization": ""
+    }
+  ]
 }
