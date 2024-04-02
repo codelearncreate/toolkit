@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/codelearncreate/co-design/compare/v1.3.0...v1.4.0) (2024-04-02)
+
+
+### Features
+
+* sort by order ([#133](https://github.com/codelearncreate/co-design/issues/133)) ([7c07453](https://github.com/codelearncreate/co-design/commit/7c074539472321d5511664fd107cc0b035361096))
+
 ## [1.3.0](https://github.com/codelearncreate/co-design/compare/v1.2.0...v1.3.0) (2024-03-28)
 
 
