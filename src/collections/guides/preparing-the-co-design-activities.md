@@ -42,20 +42,37 @@ exampleSection: >-
 
 
   Despite our planning, some activities were inaccessible at times. For instance, a planned large board for drawing an imaginary interface didn't consider a child who experienced difficulty holding a marker. We also learned that offering a large collection of options was challenging for some kids, leading us to prefer offering a smaller set of items for choice, preferably a set of two options at a time.
+supportiveMaterials:
+  - type: link
+    label: "Aptitudes, Capabilities, and Interests of Children with Autism Spectrum
+      Disorder "
+    link: https://www.dpublication.com/journal/EJTE/article/view/863/597
+  - link: /assets/uploads/solveigm.reindal2009.pdf
+    type: file
+    label: "Disability, capability, and special education: towards a
+      capability-based theory "
 ---
 ## Description
 
-The success of a co-design process relies on creating engaging and accessible activities that enable children with disabilities to express their creativity and contribute meaningfully. Well-designed activities offer children a starting point to build upon and explore new directions. 
+The success of a co-design process relies on creating engaging and accessible activities that enable children with disabilities to express their creativity and contribute meaningfully. Well-designed activities focus more on individual strengths of learners rather than on pre-existing deficits, labels, or diagnosis;  offer children a starting point to build upon and explore new directions.   
 
 ## Suggestions
 
-### Start with tangible elements
+### Find various ways to know the learners
 
-Engaging kids in purely conceptual activities with no tangible elements might be challenging, particularly for those with limited verbal communication. Providing a starting point, such as a basic prototype or model is critical to encourage engagement. Using low fidelity prototypes such as paper or clay prototypes, gives your team the flexibility to change the proposed design/idea if children are not interested or engaged.
+A simple questionnaire for parents and caregivers completed at the beginning of the school year can help align knowledge and expectations between home and school. This knowledge is especially important for working with learners with Autism Spectrum Disorder (ASD) but can benefit all students and make a big impact on instructional effectiveness and for authentic assessment and evaluation.
+
+### Apply a "capability-based" approach
+
+Following a capability-based approach enables educators/researchers/designers to plan for inclusive and just instruction for all students. It allows them to focus on the strengths of individual learners and address all aspects of students’ selves, including their identity, autonomy, personal goals, and human dignity.
 
 ### Plan a scaffolded approach
 
-Work with the parents and teachers to to develop a sense of children’s capabilities: what they can do now, what they are almost capable of doing, and what they are not yet ready to do – and design activities that strike a balance between the first two and are also responsive to unique and variable skills. Be adaptive and have a few possibilities for subsequent stages of the scaffold to help address a variety of engagement needs and child interests. This gradual progression helps children build their ideas with support and confidence. 
+Work with the parents and teachers to to develop a sense of children’s capabilities: what they can do now, what they are almost capable of doing, and what they are not yet ready to do – and design activities that strike a balance between the first two and are also responsive to unique and variable skills. Be adaptive and have a few possibilities for subsequent stages of the scaffold to help address a variety of engagement needs and child interests. This gradual progression helps children build their ideas with support and confidence.
+
+### Start with tangible elements
+
+Engaging kids in purely conceptual activities with no tangible elements might be challenging, particularly for those with limited verbal communication. Providing a starting point, such as a basic prototype or model is critical to encourage engagement. Using low fidelity prototypes such as paper or clay prototypes, gives your team the flexibility to change the proposed design/idea if children are not interested or engaged.  
 
 ### Leave room for creativity
 
@@ -71,7 +88,7 @@ Incorporate multi-sensory elements into activities to allow kids to express thei
 
 ### Consider a varied approach
 
-if you are working with a group of children that each has unique needs and preferences, actively consider what methods are the easiest for each child to take part in. This could mean taking a varied approach across individual children, for example offering audio cues to one child while creating a tactile set of options for another one. 
+If you are working with a group of children that each has unique needs and preferences, actively consider what methods are the easiest for each child to take part in. This could mean taking a varied approach across individual children, for example offering audio cues to one child while creating a tactile set of options for another one. 
 
 ### Implement principles of Universal Design for Learning (UDL)
 
