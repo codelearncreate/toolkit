@@ -6,8 +6,9 @@ category: doing
 description: "Creating a structured routine and explaining what participants can
   expect helps children with disabilities feel more at ease and builds a sense
   of predictability. "
-metaImage: /assets/uploads/screenshot-2024-03-26-at-9.17.19-am.png
-metaImageAlt: "A facilitator is introducing the workshop activities to a group of students. "
+metaImage: /assets/uploads/20230831_113301.jpg
+metaImageAlt: "Visual schedule on the board with three items: 1. Choice of
+  activity. 2. I need a break. 3. Rest"
 overviewSection: A structured routine, especially through circle times at the
   start and end, provides predictability for children with disabilities in
   workshops. Facilitators introduce themselves, outline plans, and seek feedback
