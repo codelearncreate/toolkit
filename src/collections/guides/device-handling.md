@@ -5,8 +5,8 @@ order: 7
 category: doing
 description: "Device handling during a collaborative activity is crucial to
   ensure the safety of both the participants and the equipment being used. "
-metaImage: /assets/uploads/20220407_101842.jpg
-metaImageAlt: iPad device with a protective case.
+metaImage: /assets/uploads/20200219_125008.jpg
+metaImageAlt: Facilitator showing a robot to students
 overviewSection: Proper device handling during collaborative activities is
   essential for participant safety and equipment protection. Provide clear
   guidelines, demonstrate correct handling, and use child-friendly devices when
