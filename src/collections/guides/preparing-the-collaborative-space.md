@@ -5,9 +5,8 @@ order: 5
 category: planning
 description: "Work with teachers, parents, and caregivers to create a safe and
   comfortable environment for collaboration with children with disabilities. "
-metaImage: /assets/uploads/20230815_113545-1-.jpg
-metaImageAlt: Several kids in a collaborative session and walking between foam
-  boards placed on the floor.
+metaImage: /assets/uploads/20230831_113728.jpg
+metaImageAlt: Image of a classroom
 overviewSection: For effective in-person workshops with children with
   disabilities, consider factors like layout, lighting, noise, projection,
   furniture, and a quiet space. Consulting with caregivers, teachers, and others
