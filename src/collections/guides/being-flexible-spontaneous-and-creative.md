@@ -41,6 +41,14 @@ Focus on your main goals or objectives instead of specific tasks. Creating sessi
 
 Nurture a safe and accepting environment for all participants to freely express themselves. Foster a culture of understanding and respect, where ideas are celebrated and differences are embraced. For example apply a Yes, and… approach, you can learn more about this strengths-based tactic here: [Link](https://www.thisisservicedesigndoing.com/methods/yes-and-warm-up)
 
+### Offer the right to pass on participating
+
+Sometimes a student is not ready to participate in an activity at a given moment. Offering a right to pass, alongside a verbal offer to return to them later, when they may be ready to participate, is one way of creating a safe and accepting environment. Often watching peers participate and engage in an activity gives those that pass an opportunity to observe expectations and encourage them to try the next time you ask. 
+
+### Consider the importance of wait time
+
+Many students need time to process instructions, digest information, then respond to a request or deliver a task. Follow cues and suggestions from those who know the student, or model a purposefully patient process. For some, this can be harder to do than it sounds. 
+
 ### Be Observant of Room Dynamics
 
 Stay attuned to the energy and interactions within the room. Observe how participants interact with one another and with facilitators. If you sense any tensions or frictions, be open to rearranging groups and facilitators to foster better group dynamics and engagement.
