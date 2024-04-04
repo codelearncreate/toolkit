@@ -73,6 +73,10 @@ Incorporate multi-sensory elements into activities to allow kids to express thei
 
 if you are working with a group of children that each has unique needs and preferences, actively consider what methods are the easiest for each child to take part in. This could mean taking a varied approach across individual children, for example offering audio cues to one child while creating a tactile set of options for another one. 
 
+### Implement principles of Universal Design for Learning (UDL)
+
+Whether students are in integrated or congregated school settings, the principles of Universal Design for Learning (UDL) should be implemented in all learning environment to foster an inclusive classroom. UDL provides multiple means of presenting and representing information, allowing students to express their unique understanding and offering multiple ways of engagement. Teachers committed to UDL perceive all students as equal and as active learners not defined by their special needs or requiring special treatment.
+
 ### Symbol-based communication
 
 Consider using symbol-based communication systems, such as pictographs or other visual aids, to offer alternative means of expression and gather responses from children with specific needs.
