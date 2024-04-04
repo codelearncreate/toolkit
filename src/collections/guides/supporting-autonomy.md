@@ -36,6 +36,9 @@ exampleSection: >-
 
 
   As the project progressed and activities shifted to on-screen interactions, we implemented measures like locking certain areas on their iPad devices to prevent accidental navigation. Providing time for play with physical directional cubes and other toys contributed to their confidence and interaction with the interface.
+
+
+  Here is a comment from Hien Quach regarding supporting learners' agency: "As a teacher working with students with multiple exceptionalities, I am always reflecting on how I treat my students, the questions I ask them, and what level of support (physical, emotional) I give them. I want to offer appropriate guidance and avoid overstepping or assuming they need extra help when they don’t. This is where knowing your students is important, and where the effort needed for ongoing assessments, detailed observations, and open communication to effectively collaborate with students, families and caregivers, colleagues, agencies, organizations and the school community is so worthwhile. Working together, I am convinced we can build a barrier free environment for all learners."
 ---
 ## Description
 
