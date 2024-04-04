@@ -73,7 +73,9 @@ To ensure meaningful and productive co-design workshops with kids, careful plann
 
 **Communicate with Parents:** Prior to the session, communicate with parents to provide information on the best ways to get to the venue. Address any transportation concerns they may have. This is particularly important if their children use mobility devices.
 
-**Access Guide:** If possible, prepare an access guide for the venue and share it with parents in advance. This guide helps familiarize parents and children with the space, making them feel more comfortable in the new environment. An access guide may include information and photos of parking options (and applicable fees), ramp access for wheelchair users, and directions to get to your workshop location, washrooms, kitchens, and water fountains in the venue. Check out the supportive material section for an example of an "Access Guide".
+**Access Guide:** If possible, prepare an access guide for the venue and share it with parents in advance. This guide helps familiarize parents and children with the space, making them feel more comfortable in the new environment. An access guide may include information and photos of parking options (and applicable fees), ramp access for wheelchair users, and directions to get to your workshop location, washrooms, kitchens, and water fountains in the venue. Here is a sample of a social story that helps to prepare students for a Hudson’s Bay Holiday Concert: [Access Guide Example](https://read.bookcreator.com/c1ewcGZxNLQPLwhZDqnmMpGynOP2/J3G3uo7kQqa8HwnNM_a6oA)
+
+Check out the supportive material section for another example of an "Access Guide". 
 
 ### Wrap up
 
