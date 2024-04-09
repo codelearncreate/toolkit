@@ -14,9 +14,10 @@ overviewSection: To support children's self-regulation during collaborative
   distractions, and provide a consistent set of sensory toys to promote
   familiarity and comfort.
 exampleSection: >-
-  ![hand holding a stuffed animal toy in front of the
-  screen](/assets/uploads/stuffed-animal.png "Facilitator using a toy squirrel
-  in front of the Weavly screen")
+  ![A collage of different sensory items, such as pop it toys, brushes, moving
+  toys, balls with different textures, different eye shades,
+  massagers](/assets/uploads/incollage_20240405_114915991.jpg "Examples of
+  different sensory items")
 
 
   Although the [Weavly](https://weavly.org/) project focused on developing a digital coding environment, in most of our sessions we included various sensory items, such as stuffed animal toys as the characters of our coding challenges and stories, large building blocks for analog block-based programming, or other printed images, and sensory toys. These items proved helpful in our communication with children, helping them better understand the tasks and be more engaged. As a result, they were able to better self-regulate during the activity. Offering access to preferred toys at the session's end helped some students maintain focus throughout the session. 
