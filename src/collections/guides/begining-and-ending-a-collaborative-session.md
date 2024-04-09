@@ -32,13 +32,15 @@ exampleSection: >-
   Here is an image of a visual schedule we had created for one of our sessions, including four steps:
 
 
-  1. We are doing the circle time right now.
+  1. First circle time.
 
-  2. Then, you will watch something on the TV.
+  2. Next, you will a watch video (screen, white board etc.).
 
-  3. Then, you will do some art activities.
+  3. Then, you will work on some art activities.
 
-  4. You will go to your next class after this activity is done. 
+  4. Last, circle is finished, all done.
+
+  5. Finally, you will go to your next class (or activity) 
 
 
   There is also a Yes/No feedback card on this board that we used with some students to gather their feedback about different questions. 
