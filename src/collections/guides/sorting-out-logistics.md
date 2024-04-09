@@ -21,6 +21,9 @@ exampleSection: >-
   experiences.
 
 
+  ![A corner of a classroom with two bean bags for seating, a smal table, a small chair, and some floor mats a couple of different toys](/assets/uploads/20240405_093343~3.jpg "Break time area")
+
+
   For older children using assistive technologies like scanners, on-screen communication systems (e.g., Grid 3), or keyboards, selecting an item on the interface was not as simple as clicking; it involved several steps. Headtracker, eye gaze, and switch users needed constant physical movements and high mental focus to interact with the Weavly interface. Thus, we made sure to give them breaks every 10-15 minutes to rest their bodies and help them sustain engagement.
 
 
