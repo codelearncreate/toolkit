@@ -17,10 +17,11 @@ overviewSection: A structured routine, especially through circle times at the
   plans are shared, feedback is gathered visually, and participants are
   celebrated for their positive contributions, fostering a sense of pride.
 exampleSection: >-
-  In every stage of the multi-year [Weavly](https://weavly.org/) project,
-  regardless of the group or specific activities, we consistently initiated and
-  concluded our work with a circle time. Setting up a visual timer and a visual
-  agenda for the planned activities was very helpful. 
+  ![An image of a visual timer](/assets/uploads/20240405_113848~2.jpg "A visual
+  timer")
+
+
+  In every stage of the multi-year [Weavly](https://weavly.org/) project, regardless of the group or specific activities, we consistently initiated and concluded our work with a circle time. Setting up a visual timer and a visual agenda for the planned activities was very helpful. 
 
 
   Depending on the activities for each session, we created a different visual schedule and velcroed it onto a board visible to all students. Then, during the circle time, we explained each step, took the visual card of that step, and showed it to each individual student to get them to confirm that step either through tapping the image, nodding, or giving their feedback verbally. As we progressed through a session, we removed the steps from the board and also updated the visual timer. 
