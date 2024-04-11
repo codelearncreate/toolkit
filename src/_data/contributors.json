@@ -1,13 +1,24 @@
 {
   "contributors": [
     {
-      "name": "Cathleen Evans - Occuptaional Therapist",
-      "organization": ""
-    },
-    {
-      "name": "Dana Ayotte - Senior Inclusive Designer",
+      "name": "Sepideh Shahi - Senior inclusive designer",
       "organization": "Inclusive Design Research Centre",
       "link": "https://idrc.ocadu.ca/"
+    },
+    {
+      "name": "Rachel Y. Chen - Assistant Professor and Special Education PhD",
+      "link": "https://dr.ntu.edu.sg/cris/rp/rp02146",
+      "organization": "Nanyang Technology University"
+    },
+    {
+      "name": "Seray Ibrahim - Research Associate",
+      "organization": "King's College London",
+      "link": "https://www.kcl.ac.uk/people/seray-ibrahim"
+    },
+    {
+      "name": "Minna Nygren - Research Fellow on HCI and HRI",
+      "link": "https://profiles.ucl.ac.uk/63592-minna-nygren",
+      "organization": "University College London"
     },
     {
       "name": "Hien Quach - Special Education Teacher",
@@ -25,14 +36,14 @@
       "name": "Michelle D'Souza - Project Manager"
     },
     {
-      "name": "Minna Nygren - Research Fellow on HCI and HRI",
-      "link": "https://profiles.ucl.ac.uk/63592-minna-nygren",
-      "organization": "University College London"
+      "name": "Simon Bates - Senior Inclusion Developer",
+      "organization": "Inclusive Design Research Centre",
+      "link": "https://idrc.ocadu.ca/"
     },
     {
-      "name": "Rachel Y. Chen - Assistant Professor and Special Education PhD",
-      "link": "https://dr.ntu.edu.sg/cris/rp/rp02146",
-      "organization": "Nanyang Technology University"
+      "name": "Dana Ayotte - Senior Inclusive Designer",
+      "organization": "Inclusive Design Research Centre",
+      "link": "https://idrc.ocadu.ca/"
     },
     {
       "name": "Riya Shah - Occuptaional Therapist",
@@ -40,19 +51,8 @@
       "organization": ""
     },
     {
-      "name": "Sepideh Shahi - Senior inclusive designer",
-      "organization": "Inclusive Design Research Centre",
-      "link": "https://idrc.ocadu.ca/"
-    },
-    {
-      "name": "Seray Ibrahim - Research Associate",
-      "organization": "King's College London",
-      "link": "https://www.kcl.ac.uk/people/seray-ibrahim"
-    },
-    {
-      "name": "Simon Bates - Senior Inclusion Developer",
-      "organization": "Inclusive Design Research Centre",
-      "link": "https://idrc.ocadu.ca/"
+      "name": "Cathleen Evans - Occuptaional Therapist",
+      "organization": ""
     }
   ]
 }
