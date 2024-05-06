@@ -16,7 +16,7 @@
         "lint:yml": "eslint \"**/*.yml\"",
         "start": "npm-run-all -l clean -p start:*",
         "start:eleventy": "run-p dev cms",
-        "prepare": "husky install"
+        "prepare": "husky"
     },
     "repository": {
         "type": "git",
@@ -65,9 +65,6 @@
     "lint-staged": {
         "*.scss": "stylelint --fix",
         "*.{js,yml}": "eslint --fix",
-        "*.md": [
-            "markdownlint-cli2 --fix",
-            "eslint --fix"
-        ]
+        "*.md": ["markdownlint-cli2 --fix", "eslint --fix"]
     }
 }
