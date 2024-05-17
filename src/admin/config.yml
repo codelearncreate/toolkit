@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: main
-  repo: codelearncreate/co0-design
+  repo: codelearncreate/co-design
   base_url: https://sveltia-cms-auth.idrc-ops.workers.dev
   # squash_merges: true
   # commit_messages:
