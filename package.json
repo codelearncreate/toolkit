@@ -1,7 +1,7 @@
 {
   "name": "@weavly/co-design",
   "version": "1.5.0",
-  "description": "TODO",
+  "description": "Recommendations to enable designers, children, teachers, and caregivers to meet their respective needs and achieve their goals in a collaborative process.",
   "scripts": {
     "build": "npm-run-all -l clean -p build:*",
     "build:eleventy": "cross-env NODE_ENV=production eleventy",
