@@ -21,7 +21,7 @@
 
 .pagination a {
   align-items: center;
-  background-color: var(--color-red-85);
+  background-color: var(--page-color);
   block-size: var(--space-lg);
   border-radius: 50%;
   display: flex;
@@ -30,24 +30,28 @@
   padding: 0.5rem;
   text-decoration: none;
 
+  .pagination-icon {
+    display: flex;
+  }
+
   &:hover {
-    background-color: var(--color-red-75);
+    background-color: var(--pagination-hover-bg);
   }
 
   &:focus {
-    box-shadow: 0 0 0 var(--space-xxs) var(--color-red-45);
+    box-shadow: 0 0 0 var(--space-xxs) var(--pagination-boxshadow);
     outline: none;
   }
 
   &:active,
   &[aria-current="page"] {
-    background-color: var(--color-red-45);
-    box-shadow: 0 0 0 var(--space-xxs) var(--color-red-45);
+    background-color: var(--pagination-boxshadow);
+    box-shadow: 0 0 0 var(--space-xxs) var(--pagination-boxshadow);
     color: var(--color-white);
     text-decoration: none;
 
     &:focus {
-      box-shadow: 0 0 0 var(--space-xxs) var(--color-red-35);
+      box-shadow: 0 0 0 var(--space-xxs) var(--pagination-active-focus-bg);
     }
   }
 }
