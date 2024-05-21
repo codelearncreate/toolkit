@@ -1,21 +1,19 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
-  squash_merges: true
-  commit_messages:
-    create: 'chore(cms): create "{{path}}"'
-    update: 'chore(cms): update "{{path}}"'
-    delete: 'chore(cms): delete "{{path}}"'
-    uploadMedia: 'chore(cms): upload "{{path}}"'
-    deleteMedia: 'chore(cms): delete "{{path}}"'
-publish_mode: editorial_workflow
+  repo: codelearncreate/co-design
+  base_url: https://sveltia-cms-auth.idrc-ops.workers.dev
+  # squash_merges: true
+  # commit_messages:
+  #   create: 'chore(cms): create "{{path}}"'
+  #   update: 'chore(cms): update "{{path}}"'
+  #   delete: 'chore(cms): delete "{{path}}"'
+  #   uploadMedia: 'chore(cms): upload "{{path}}"'
+  #   deleteMedia: 'chore(cms): delete "{{path}}"'
+# publish_mode: editorial_workflow
 site_url: "https://co-design.weavly.org"
 media_folder: src/assets/uploads
 public_folder: /assets/uploads
-
-
-# Run "npx decap-server" for local backend
-local_backend: true
 editor:
   preview: false
 collections:
@@ -38,7 +36,15 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons:
+                  - heading-three
+                  - heading-four
+                  - bold
+                  - italic
+                  - link
+                  - bulleted-list
+                  - numbered-list
+
                 editor_components: [image]
 
           - label: Ground Rules
@@ -49,7 +55,15 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons:
+                  - heading-three
+                  - heading-four
+                  - bold
+                  - italic
+                  - link
+                  - bulleted-list
+                  - numbered-list
+
                 editor_components: [image]
 
           - label: How To
@@ -60,7 +74,15 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons:
+                  - heading-three
+                  - heading-four
+                  - bold
+                  - italic
+                  - link
+                  - bulleted-list
+                  - numbered-list
+
                 editor_components: [image]
 
           - label: Contributors
@@ -71,7 +93,15 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons:
+                  - heading-three
+                  - heading-four
+                  - bold
+                  - italic
+                  - link
+                  - bulleted-list
+                  - numbered-list
+
                 editor_components: [image]
 
           - label: Connect
@@ -83,7 +113,15 @@ collections:
               - label: Content
                 name: content
                 widget: markdown
-                buttons: [heading-three, heading-four, bold, italic, link, bulleted-list, numbered-list]
+                buttons:
+                  - heading-three
+                  - heading-four
+                  - bold
+                  - italic
+                  - link
+                  - bulleted-list
+                  - numbered-list
+
                 editor_components: [image]
 
       - label: Planning
@@ -136,8 +174,16 @@ collections:
           - {label: Doing, value: doing}
           - {label: Reflecting, value: reflecting}
       - {label: Description, name: description, widget: string}
-      - {label: Preview Image, name: metaImage, widget: image, required: false}
-      - {label: Preview Image Alt Text, name: metaImageAlt, widget: string, required: false}
+      - label: Preview Image
+        name: metaImage
+        widget: image
+        required: false
+
+      - label: Preview Image Alt Text
+        name: metaImageAlt
+        widget: string
+        required: false
+
       - label: Overview
         name: overviewSection
         widget: markdown
@@ -172,7 +218,12 @@ collections:
         required: false
         fields:
           - {label: Label, name: label, widget: string}
-          - {label: Type, name: type, widget: select, options: [{value: file, label: File}, {value: link, label: Link}]}
+          - label: Type
+            name: type
+            widget: select
+            options:
+              [{value: file, label: File}, {value: link, label: Link}]
+
           - {label: Link, name: link, widget: file}
   - label: Site Configuration
     name: config
@@ -209,5 +260,9 @@ collections:
             summary: "{{fields.name}}"
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Organization, name: organization, widget: string, required: false}
+              - label: Organization
+                name: organization
+                widget: string
+                required: false
+
               - {label: Link, name: link, widget: string, required: false}

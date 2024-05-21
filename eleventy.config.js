@@ -26,46 +26,49 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTransform("parse", parseTransform);
 
     // Passthrough copy
-    eleventyConfig.addPassthroughCopy({"src/admin/config.yml": "admin/config.yml"});
-    eleventyConfig.addPassthroughCopy({"src/assets/icons": "/"});
-    eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
-    eleventyConfig.addPassthroughCopy({"src/assets/uploads": "assets/uploads"});
     eleventyConfig.addPassthroughCopy({
-        "node_modules/decap-cms/dist/decap-cms.js": "lib/cms/decap-cms.js",
-        "node_modules/decap-cms/dist/decap-cms.js.map": "lib/cms/decap-cms.js.map",
-        "node_modules/nunjucks/browser/nunjucks-slim.min.js": "lib/cms/nunjucks-slim.min.js",
-        "node_modules/prop-types/prop-types.min.js": "lib/cms/prop-types.min.js",
-        "node_modules/react/umd/react.development.js": "lib/cms/react.development.js",
-        "node_modules/react/umd/react.production.min.js": "lib/cms/react.production.min.js"
+        "src/admin/config.yml": "admin/config.yml"
     });
+    eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
+    eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
+    eleventyConfig.addPassthroughCopy({ "src/assets/uploads": "assets/uploads" });
 
     // Custom collections
-    eleventyConfig.addCollection("pages", collection => {
+    eleventyConfig.addCollection("pages", (collection) => {
         return collection.getFilteredByGlob("./src/collections/pages/*.md");
     });
 
-    eleventyConfig.addCollection("planning", collection => {
-        return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
-            return item.data.category === "planning";
-        }).sort((a, b) => {
-            return a.data.order - b.data.order;
-		  });
+    eleventyConfig.addCollection("planning", (collection) => {
+        return collection
+            .getFilteredByGlob("./src/collections/guides/*.md")
+            .filter(function (item) {
+                return item.data.category === "planning";
+            })
+            .sort((a, b) => {
+                return a.data.order - b.data.order;
+            });
     });
 
-    eleventyConfig.addCollection("doing", collection => {
-        return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
-            return item.data.category === "doing";
-        }).sort((a, b) => {
-            return a.data.order - b.data.order;
-		  });
+    eleventyConfig.addCollection("doing", (collection) => {
+        return collection
+            .getFilteredByGlob("./src/collections/guides/*.md")
+            .filter(function (item) {
+                return item.data.category === "doing";
+            })
+            .sort((a, b) => {
+                return a.data.order - b.data.order;
+            });
     });
 
-    eleventyConfig.addCollection("reflecting", collection => {
-        return collection.getFilteredByGlob("./src/collections/guides/*.md").filter(function (item) {
-            return item.data.category === "reflecting";
-        }).sort((a, b) => {
-            return a.data.order - b.data.order;
-		  });
+    eleventyConfig.addCollection("reflecting", (collection) => {
+        return collection
+            .getFilteredByGlob("./src/collections/guides/*.md")
+            .filter(function (item) {
+                return item.data.category === "reflecting";
+            })
+            .sort((a, b) => {
+                return a.data.order - b.data.order;
+            });
     });
 
     // Plugins
