@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/codelearncreate/co-design/compare/v1.4.0...v1.5.0) (2024-05-21)
+
+
+### Features
+
+* configure Husky 9 and Commitlint 19 properly ([#157](https://github.com/codelearncreate/co-design/issues/157)) ([994c3c0](https://github.com/codelearncreate/co-design/commit/994c3c0f8fe8b16724c68fc280b62e141b02d226))
+* configure Sveltia CMS ([#159](https://github.com/codelearncreate/co-design/issues/159)) ([a83cb60](https://github.com/codelearncreate/co-design/commit/a83cb6003e4ed7175af92901e31f595e2c1ee8ba))
+
 ## [1.4.0](https://github.com/codelearncreate/co-design/compare/v1.3.0...v1.4.0) (2024-04-02)
 
 
