@@ -1,27 +1,33 @@
         {% set previous = collections[category] | getPreviousCollectionItem(page) %}
         {% set next = collections[category] | getNextCollectionItem(page) %}
+        {% set previousIcon = "category" %}
+        {% set nextIcon = "category" %}
         
         <nav class="pagination" aria-label="posts pagination">
             <ul role="list">
             {% if not previous %}
                 {% if category == 'doing' %}
                         {% set previous = collections['planning'][0] %}
+                        {% set previousIcon = "section" %}
                 {% elif category == 'reflecting' %}
                         {% set previous = collections['doing'][0] %}
+                        {% set previousIcon = "section" %}
                 {% endif %}
             {% endif %}
             {% if previous %}
-            <li><a href="{{ previous.url }}"><span aria-hidden="true">&larr;</span><span class="visually-hidden">previous</span></a></li>
+            <li><a href="{{ previous.url }}"><span class="pagination-icon" aria-hidden="true">{% if previousIcon === "category" %}{% include "svg/previous.svg" %}{% else %}{% include "svg/previousSection.svg" %}{% endif %}</span><span class="visually-hidden">previous</span></a></li>
             {% endif %}
             {% if not next %}
                 {% if category == 'planning' %}
                         {% set next = collections['doing'][0] %}
+                        {% set nextIcon = "section" %}
                 {% elif category == 'doing' %}
                         {% set next = collections['reflecting'][0] %}
+                        {% set nextIcon = "section" %}
                 {% endif %}
             {% endif %}
             {% if next %}
-            <li><a href="{{ next.url }}"><span class="visually-hidden">next</span><span aria-hidden="true">&rarr;</span></a></li>
+            <li><a href="{{ next.url }}"><span class="visually-hidden">next</span><span class="pagination-icon" aria-hidden="true">{% if nextIcon === "category" %}{% include "svg/next.svg" %}{% else %}{% include "svg/nextSection.svg" %}{% endif %}</span></a></li>
             {% endif %}
             </ul>
         </nav>

@@ -4,10 +4,26 @@
 
 {% if category == "planning" %}
     {% set headerBg = "orange-75" %}
+    {% set paginationBase = "orange" %}
+    {% set paginationHoverBg = "65" %}
+    {% set paginationBoxShadow = "55" %}
+    {% set paginationActiveFocusBg = "45" %}
 {% elif category == "doing" %}
     {% set headerBg = "yellow-75" %}
+    {% set paginationBase = "yellow" %}
+    {% set paginationHoverBg = "55" %}
+    {% set paginationBoxShadow = "45" %}
+    {% set paginationActiveFocusBg = "35" %}
 {% elif category == "reflecting" %}
     {% set headerBg = "green-55" %}
+    {% set paginationBase = "green" %}
+    {% set paginationHoverBg = "45" %}
+    {% set paginationBoxShadow = "35" %}
+    {% set paginationActiveFocusBg = "25" %}
+{% else %}
+    {% set paginationHoverBg = "75" %}
+    {% set paginationBoxShadow = "45" %}
+    {% set paginationActiveFocusBg = "35" %}
 {% endif %}
 
 {% block pageHeader %}
@@ -28,6 +44,7 @@
         </div>
     </div>
     <div class="[ prose ]">
+        {% include 'partials/components/pagination.njk' %}
         {{ content | safe }}
         {% if exampleSection %}
         <div class="[ flow ] [ bg bg--cream-95 ] [ examples ]">

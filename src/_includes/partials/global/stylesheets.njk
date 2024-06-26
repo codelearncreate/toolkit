@@ -4,4 +4,11 @@
         {% if headerBg %}
         <style>:root { --page-color: var(--color-{{ headerBg }}); }</style>
         {% endif %}
+        {% if paginationBase %}
+        <style>:root { 
+                --pagination-hover-bg: var(--color-{{ paginationBase }}-{{ paginationHoverBg }});
+                --pagination-boxshadow: var(--color-{{ paginationBase }}-{{ paginationBoxShadow }});
+                --pagination-active-focus-bg: var(--color-{{ paginationBase }}-{{ paginationActiveFocusBg }});
+        }</style>
+        {% endif %}
         {% uioStyles %}
